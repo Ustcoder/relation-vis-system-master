@@ -1,0 +1,49 @@
+{
+  "panel_type": "global",
+  "panel_radius": 3,
+  "grid_radius": 60,
+  "nodeInfos": [
+    {
+      "id": "DAI",
+      "coors": [0, 0],
+      "image": "person-worker-b.svg",
+      "shape": "",
+      "titletext": "[0,0]",
+      "hovertext": "中国是一个具有5000多年历史的文明古国,中国是一个具有5000多年历史的文明古国,中国是一个具有5000多年历史的文明古国,中国是一个具有5000多年历史的文明古国",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Organization"
+    },
+    {
+      "id": "DAI2",
+      "coors": [-1, -1],
+      "image": "hardware-device.svg",
+      "shape": "",
+      "titletext": "[-1, -1]",
+      "hovertext": "Browse free open source Computer Aided Instruction (CAI) software and projects for Windows below. Use the toggles on the left to filter open source Computer Aided Instruction (CAI) software by OS, license, language, programming language, project status, and freshness.",
+      "focustext": {
+        "Job Title": "Browse free open source Computer Aided Instruction (CAI) software and projects for Windows below. Use the toggles on the left to filter open source Computer Aided Instruction (CAI) software by OS, license, language, programming language, project status, and freshness.",
+        "特长": ["维修", "外语", "喝酒"]
+      },
+      "link": "",
+      "effect": "",
+      "type": "Organization"
+    }
+  ],
+  "edgeInfos": [
+    {
+      "id": "e1",
+      "startnode": "DAI",
+      "endnode": "DAI2",
+      "hovertext": "这是一段关系描述信息，这是一段关系描述信息这是一段关系描述信息，这是一段关系描述信息",
+      "line": "direct",
+      "path": [],
+      "focustext": {
+        "关系类型": "住址",
+        "关联关系": ["常驻", "家", "公司"]
+      },
+      "type": "related"
+    }
+  ]
+}

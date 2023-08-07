@@ -1,0 +1,356 @@
+{
+  "panel_type": "local",
+  "panel_radius": 6,
+  "grid_radius": 80,
+  "nodeInfos": [
+    {
+      "id": "rc164",
+      "coors": [0, 0],
+      "image": "abstract-faultphenomenon_2_seq",
+      "shape": "hex_cube",
+      "titletext": "供料系统feeder堵塞",
+      "hovertext": "供料系统-feeder-堵塞",
+      "focustext": {
+        "根因": "供料系统feeder堵塞",
+        "详细资料": "供料器堵塞是造成贴片异常的常见原因之一"
+      },
+      "link": "",
+      "effect": "",
+      "type": "RootCause"
+    },
+    {
+      "id": "d1",
+      "coors": [0, -8],
+      "image": "hardware-productionline.svg",
+      "shape": "hex_base",
+      "titletext": "贴片机",
+      "hovertext": "贴片机生产线全线",
+      "focustext": null,
+      "link": "Local_Device.json",
+      "effect": "bulb-white",
+      "type": "Device"
+    },
+    {
+      "id": "m4",
+      "coors": [-2, -6],
+      "image": "hardware-device_4_seq",
+      "shape": "hex_base",
+      "titletext": "供料系统",
+      "hovertext": "贴片机供料系统",
+      "focustext": {
+        "供料系统": "贴片机核心模块之一",
+        "详细资料": "为供料器或送料器，也有叫喂料器，其作用是将SMD贴片元件安装在供料器上，供料器为贴片机提供元件进行贴片"
+      },
+      "link": "",
+      "effect": "bulb-white",
+      "type": "Module"
+    },
+    {
+      "id": "mp47",
+      "coors": [0, -4],
+      "image": "hardware-part.svg",
+      "shape": "hex_base",
+      "titletext": "料车Interlock",
+      "hovertext": "供料系统-料车Interlock",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ModulePart"
+    },
+    {
+      "id": "mp48",
+      "coors": [-2, -2],
+      "image": "hardware-part.svg",
+      "shape": "hex_base",
+      "titletext": "feeder",
+      "hovertext": "供料系统-feeder",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ModulePart"
+    },
+    {
+      "id": "mp49",
+      "coors": [-4, -4],
+      "image": "hardware-part.svg",
+      "shape": "hex_base",
+      "titletext": "FCU",
+      "hovertext": "供料系统-FCU",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ModulePart"
+    },
+    {
+      "id": "mp50",
+      "coors": [-4, 0],
+      "image": "hardware-part.svg",
+      "shape": "hex_base",
+      "titletext": "料车保护钢片",
+      "hovertext": "供料系统-料车保护钢片",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ModulePart"
+    },
+    {
+      "id": "grc6",
+      "coors": [2, -6],
+      "image": "abstract-faultphenomenon_2_seq",
+      "shape": "hex_cube",
+      "titletext": "堵塞",
+      "hovertext": "堵塞",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "GeneralRootCause"
+    },
+    {
+      "id": "ec34922",
+      "coors": [0, 4],
+      "image": "abstract-faultevent_2_seq",
+      "shape": "hex_cube",
+      "titletext": "供料器：未在规定的时间将元件传送到指定的位置",
+      "hovertext": "供料器：未在规定的时间将元件传送到指定的位置",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ErrorCode"
+    },
+    {
+      "id": "ec34926",
+      "coors": [2, -2],
+      "image": "abstract-faultevent_2_seq",
+      "shape": "hex_cube",
+      "titletext": "供料器：封料带剥离设备堵塞",
+      "hovertext": "供料器：封料带剥离设备堵塞",
+      "focustext": {
+        "故障代码34926": "贴片机故障日志报出的故障代码",
+        "详细资料": "封料带拆除设备被堵塞（粘有封料带残留物），封料带容器已满。打开封料带拆除容器，并将其清空。封料带拆除通道中的粘性残留物。检查和清洁封料带拆除通道"
+      },
+      "link": "",
+      "effect": "",
+      "type": "ErrorCode"
+    },
+    {
+      "id": "ec34946",
+      "coors": [-2, 2],
+      "image": "abstract-faultevent_2_seq",
+      "shape": "hex_cube",
+      "titletext": "供料器未做出响应",
+      "hovertext": "供料器未做出响应",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ErrorCode"
+    },
+    {
+      "id": "sol65",
+      "coors": [2, 2],
+      "image": "abstract-solution_2_seq",
+      "shape": "hex_cube",
+      "titletext": "更换feeder",
+      "hovertext": "更换feeder",
+      "focustext": {
+        "解决方案": "更换feeder",
+        "详细资料": "通过更换feeder解决堵塞问题，更换后重新上线即可恢复正常"
+      },
+      "link": "",
+      "effect": "bulb-white",
+      "type": "Solution"
+    },
+    {
+      "id": "pd1",
+      "coors": [4, 0],
+      "image": "abstract-faultphenomenon_2_seq",
+      "shape": "hex_cube",
+      "titletext": "初始化失败",
+      "hovertext": "初始化失败",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ProblemDescription"
+    },
+    {
+      "id": "pd11",
+      "coors": [4, -4],
+      "image": "abstract-faultphenomenon_2_seq",
+      "shape": "hex_cube",
+      "titletext": "贴片异常",
+      "hovertext": "贴片异常",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ProblemDescription"
+    },
+    {
+      "id": "pd18",
+      "coors": [4, 4],
+      "image": "abstract-faultphenomenon_2_seq",
+      "shape": "",
+      "titletext": "封料皮撕裂",
+      "hovertext": "封料皮撕裂",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ProblemDescription"
+    }
+  ],
+  "edgeInfos": [
+    {
+      "id": "is_part_of_0",
+      "startnode": "m4",
+      "endnode": "d1",
+      "hovertext": "组成部分",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "is_part_of"
+    },
+    {
+      "id": "is_part_of_47",
+      "startnode": "mp47",
+      "endnode": "m4",
+      "hovertext": "组成部分",
+      "focustext": {
+        "组成部分": "贴片机核心模块由多个独立子模块组成",
+        "详细资料": "组成部分从贴片机的物理结构出发，将贴片机的结构进行分解，方便后续问题发现与维护"
+      },
+      "line": "straight",
+      "path": [],
+      "type": "is_part_of"
+    },
+    {
+      "id": "is_part_of_48",
+      "startnode": "mp48",
+      "endnode": "m4",
+      "hovertext": "组成部分",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "is_part_of"
+    },
+    {
+      "id": "is_part_of_49",
+      "startnode": "mp49",
+      "endnode": "m4",
+      "hovertext": "组成部分",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "is_part_of"
+    },
+    {
+      "id": "is_part_of_50",
+      "startnode": "mp50",
+      "endnode": "m4",
+      "hovertext": "组成部分",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "is_part_of"
+    },
+    {
+      "id": "is_attached_to_164",
+      "startnode": "rc164",
+      "endnode": "mp48",
+      "hovertext": "依附于",
+      "focustext": {
+        "依附于": "根因的最终定位在子模块上",
+        "详细资料": "目前的根因分析处理粒度在子模块层级，所以每个根因会与子模块相连"
+      },
+      "line": "straight",
+      "path": [],
+      "type": "is_attached_to"
+    },
+    {
+      "id": "is_kind_of_164",
+      "startnode": "rc164",
+      "endnode": "grc6",
+      "hovertext": "是一种",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "is_kind_of"
+    },
+    {
+      "id": "co_rc_8898",
+      "startnode": "ec34922",
+      "endnode": "rc164",
+      "hovertext": "同时出现",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "co_occur_ec_rc"
+    },
+    {
+      "id": "co_rc_9006",
+      "startnode": "ec34926",
+      "endnode": "rc164",
+      "hovertext": "同时出现",
+      "focustext": {
+        "同时出现": "在故障日志中同时出现的根因和故障代码",
+        "详细资料": "贴片机本身的故障日志中，会报出不同的故障代码，通过分析算法可以得到和故障代码同时出现的根因，并相连"
+      },
+      "line": "straight",
+      "path": [],
+      "type": "co_occur_ec_rc"
+    },
+    {
+      "id": "co_rc_9014",
+      "startnode": "ec34946",
+      "endnode": "rc164",
+      "hovertext": "同时出现",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "co_occur_ec_rc"
+    },
+    {
+      "id": "is_solution_of_117",
+      "startnode": "rc164",
+      "endnode": "sol65",
+      "hovertext": "解决方案",
+      "focustext": {
+        "同时出现": "对具体根因的实际解决方案",
+        "详细资料": "针对发现的具体根因以及与之相连的子模块，对应有相应的解决方案，用于故障的排除"
+      },
+      "line": "straight",
+      "path": [],
+      "type": "is_solution_of"
+    },
+    {
+      "id": "co_pd_3073",
+      "startnode": "ec34926",
+      "endnode": "pd11",
+      "hovertext": "问题描述",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "co_occur_ec_pd"
+    },
+    {
+      "id": "co_pd_3074",
+      "startnode": "ec34926",
+      "endnode": "pd1",
+      "hovertext": "问题描述",
+      "focustext": {
+        "问题描述": "贴片机故障代码对应的具体问题描述",
+        "详细资料": "对故障代码的具体解释"
+      },
+      "line": "straight",
+      "path": [],
+      "type": "co_occur_ec_pd"
+    },
+    {
+      "id": "co_pd_3075",
+      "startnode": "ec34926",
+      "endnode": "pd18",
+      "hovertext": "问题描述",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "co_occur_ec_pd"
+    }
+  ]
+}

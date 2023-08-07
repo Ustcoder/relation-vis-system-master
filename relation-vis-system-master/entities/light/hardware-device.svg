@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 78.79 103.08" width='78' height='103'>
+  <defs>
+    <style>.cls-1{isolation:isolate;}.cls-2{fill:#f7f7f7;}.cls-3{fill:#d8d8d8;}.cls-4{fill:#e8e8e8;}.cls-5{fill:#efefef;}.cls-6{fill:url(#未命名的渐变_27);}.cls-7{fill:url(#未命名的渐变_22);}.cls-8{fill:#04bcd8;}.cls-9{fill:url(#未命名的渐变_24);}.cls-10{fill:url(#linear-gradient);}.cls-11{fill:url(#未命名的渐变_58);}.cls-12{fill:url(#未命名的渐变_61);}.cls-13{fill:url(#未命名的渐变_8);}.cls-14{fill:url(#未命名的渐变_61-2);}.cls-15{fill:url(#未命名的渐变_8-2);}.cls-16{fill:#0186be;}.cls-17{fill:#01ffb9;}.cls-18,.cls-19{fill:#06486d;}.cls-19{opacity:0.5;mix-blend-mode:multiply;}.cls-20{fill:#b7b7b7;}.cls-21{fill:#a3a3a3;}.cls-22{fill:url(#未命名的渐变_8-3);}</style>
+    <linearGradient id="未命名的渐变_27" x1="14.05" y1="75.33" x2="63.04" y2="75.33" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0186be"/>
+      <stop offset="0.01" stop-color="#018bc0"/>
+      <stop offset="0.05" stop-color="#01accc"/>
+      <stop offset="0.1" stop-color="#00c6d6"/>
+      <stop offset="0.15" stop-color="#00d8dd"/>
+      <stop offset="0.2" stop-color="#00e3e1"/>
+      <stop offset="0.26" stop-color="#00e7e2"/>
+      <stop offset="0.42" stop-color="#00e3e1"/>
+      <stop offset="0.57" stop-color="#00d8dc"/>
+      <stop offset="0.71" stop-color="#00c5d5"/>
+      <stop offset="0.85" stop-color="#01aacc"/>
+      <stop offset="0.99" stop-color="#0189bf"/>
+      <stop offset="1" stop-color="#0186be"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_22" x1="56.77" y1="73.38" x2="63.04" y2="73.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0186be"/>
+      <stop offset="1" stop-color="#00e6e6"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_24" x1="31.74" y1="82.32" x2="56.77" y2="82.32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0186be"/>
+      <stop offset="0.26" stop-color="#0192c4"/>
+      <stop offset="0.73" stop-color="#03b1d4"/>
+      <stop offset="0.88" stop-color="#03bcda"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient" x1="23.68" y1="68.91" x2="53.42" y2="68.91" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dbdbdb"/>
+      <stop offset="0.3" stop-color="#d8d8d8"/>
+      <stop offset="0.54" stop-color="#cecece"/>
+      <stop offset="0.76" stop-color="#bcbcbc"/>
+      <stop offset="0.98" stop-color="#a4a4a4"/>
+      <stop offset="1" stop-color="#a1a1a1"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_58" x1="25.81" y1="52.61" x2="50.34" y2="55.85" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ededed"/>
+      <stop offset="0.23" stop-color="#fafafa"/>
+      <stop offset="0.45" stop-color="#fff"/>
+      <stop offset="0.56" stop-color="#fcfcfc"/>
+      <stop offset="0.65" stop-color="#f1f1f1"/>
+      <stop offset="0.74" stop-color="#dfdfdf"/>
+      <stop offset="0.83" stop-color="#c6c6c6"/>
+      <stop offset="0.91" stop-color="#a6a6a6"/>
+      <stop offset="0.99" stop-color="#7f7f7f"/>
+      <stop offset="1" stop-color="#7a7a7a"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_61" x1="42.58" y1="10.46" x2="48.71" y2="14.98" gradientTransform="translate(10.19 -12.94) rotate(24.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ededed"/>
+      <stop offset="0.2" stop-color="#fafafa"/>
+      <stop offset="0.38" stop-color="#fff"/>
+      <stop offset="0.5" stop-color="#fcfcfc"/>
+      <stop offset="0.61" stop-color="#f1f1f1"/>
+      <stop offset="0.71" stop-color="#dfdfdf"/>
+      <stop offset="0.81" stop-color="#c6c6c6"/>
+      <stop offset="0.9" stop-color="#a6a6a6"/>
+      <stop offset="0.99" stop-color="#7f7f7f"/>
+      <stop offset="1" stop-color="#7a7a7a"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_8" x1="33.77" y1="18.78" x2="43.41" y2="26.4" gradientTransform="translate(10.19 -12.94) rotate(24.78)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0186be"/>
+      <stop offset="0.05" stop-color="#0196c5"/>
+      <stop offset="0.18" stop-color="#00c1d7"/>
+      <stop offset="0.29" stop-color="#00dce2"/>
+      <stop offset="0.35" stop-color="#00e6e6"/>
+      <stop offset="0.47" stop-color="#00dde2"/>
+      <stop offset="0.66" stop-color="#00c3d7"/>
+      <stop offset="0.9" stop-color="#019ac6"/>
+      <stop offset="1" stop-color="#0186be"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_61-2" x1="28.33" y1="24.28" x2="39.85" y2="32.82" gradientTransform="translate(31.69 -17.15) rotate(53.21)" xlink:href="#未命名的渐变_61"/>
+    <linearGradient id="未命名的渐变_8-2" x1="22.18" y1="33.19" x2="38.22" y2="33.17" gradientTransform="translate(-14.64 37.67) rotate(-45)" xlink:href="#未命名的渐变_8"/>
+    <linearGradient id="未命名的渐变_8-3" x1="69.21" y1="20.38" x2="75.78" y2="17.84" gradientTransform="translate(15.45 71.52) rotate(-69.1)" xlink:href="#未命名的渐变_8"/>
+  </defs>
+  <title>图标3</title>
+  <g class="cls-1">
+    <g id="图层_5" data-name="图层 5">
+      <polygon class="cls-2" points="78.8 74.25 68.74 96.67 28.63 102.89 0.3 86.67 0.3 79.03 78.8 66.62 78.8 74.25"/>
+      <polygon class="cls-3" points="78.8 74.25 68.74 96.67 68.74 89.03 78.8 66.62 78.8 74.25"/>
+      <polygon class="cls-4" points="78.8 66.62 68.74 89.03 28.63 95.26 0.3 79.03 10.74 56.48 51 50.59 78.8 66.62"/>
+      <polygon class="cls-5" points="68.74 89.03 68.74 96.67 28.63 102.89 28.63 95.26 68.74 89.03"/>
+      <polygon class="cls-6" points="63.04 68.15 56.77 82.14 31.74 86.02 14.05 75.9 14.05 72.38 63.04 64.63 63.04 68.15"/>
+      <polygon class="cls-7" points="63.04 68.15 56.77 82.14 56.77 78.62 59.47 72.59 63.04 64.63 63.04 68.15"/>
+      <polygon class="cls-8" points="63.04 64.63 56.77 78.62 31.74 82.5 14.05 72.38 20.57 58.3 45.69 54.63 63.04 64.63"/>
+      <polygon class="cls-9" points="56.77 78.62 56.77 82.14 31.74 86.02 31.74 82.5 56.77 78.62"/>
+      <path class="cls-10" d="M53.42,68.91c0,2.28-9.33,4.12-14.87,4.12-8.22,0-14.87-1.84-14.87-4.12s6.65-4.11,14.87-4.11S53.42,66.64,53.42,68.91Z"/>
+      <path class="cls-11" d="M50.5,69.07c0-.17,0-.34,0-.51V49.27a12.37,12.37,0,0,0-24.74,0V68.56c0,.17,0,.34,0,.51,0,0,4.36,2.25,12.08,2.25A32.83,32.83,0,0,0,50.5,69.07Z"/>
+      <polygon class="cls-12" points="56.89 15.47 53.72 9.96 35.27 18.55 39.37 26.68 56.89 15.47"/>
+      <polygon class="cls-13" points="44.43 27.36 37.44 14.52 27.08 20.13 34.07 32.98 44.43 27.36"/>
+      <rect class="cls-14" x="23.35" y="19.33" width="11.78" height="16.14" transform="translate(-9.52 17.22) rotate(-28.43)"/>
+      <path class="cls-15" d="M44.36,41.45a8.94,8.94,0,0,1,0,12.63h0a8.94,8.94,0,0,1-12.63,0L15.87,38.2a8.91,8.91,0,0,1,0-12.62h0a8.91,8.91,0,0,1,12.62,0Z"/>
+      <path class="cls-16" d="M42.25,43.07a6.29,6.29,0,1,1-8.89,0A6.3,6.3,0,0,1,42.25,43.07Z"/>
+      <path class="cls-17" d="M41,44.28a4.57,4.57,0,1,1-6.47,0A4.57,4.57,0,0,1,41,44.28Z"/>
+      <path class="cls-16" d="M40.1,45.22a3.25,3.25,0,1,1-4.59,0A3.26,3.26,0,0,1,40.1,45.22Z"/>
+      <polygon class="cls-18" points="60.54 14.17 56.89 15.47 53.72 9.96 56.68 7.46 60.54 14.17"/>
+      <polygon class="cls-19" points="55.2 12.52 58.45 10.64 56.64 7.49 53.72 9.96 55.2 12.52"/>
+      <path class="cls-16" d="M25.68,30.42a3.51,3.51,0,1,1-5,0A3.52,3.52,0,0,1,25.68,30.42Z"/>
+      <path class="cls-17" d="M25,31.1a2.55,2.55,0,1,1-3.61,0A2.55,2.55,0,0,1,25,31.1Z"/>
+      <path class="cls-16" d="M24.48,31.62a1.82,1.82,0,1,1-2.57,0A1.82,1.82,0,0,1,24.48,31.62Z"/>
+      <polygon class="cls-20" points="58.66 5.8 61.11 0.21 68.34 0.75 69.35 2.5 67.47 3.58 66.62 2.04 62.82 2.62 60.81 9.55 58.66 5.8"/>
+      <polygon class="cls-20" points="62.91 13.2 68.98 13.9 72.15 7.37 71.14 5.62 69.27 6.7 70.17 8.22 67.76 11.2 60.76 9.46 62.91 13.2"/>
+      <polygon class="cls-21" points="61.3 10.39 67.96 12.02 70.85 8.17 69.81 6.39 69.27 6.71 70.17 8.22 67.76 11.21 60.76 9.46 61.3 10.39"/>
+      <rect class="cls-22" x="57.26" y="6.18" width="3.81" height="8.64" transform="translate(2.65 30.9) rotate(-29.91)"/>
+      <path class="cls-16" d="M62.88,8.36a1.85,1.85,0,1,1-2.53-.69A1.85,1.85,0,0,1,62.88,8.36Z"/>
+      <path class="cls-17" d="M62.44,8.61a1.34,1.34,0,1,1-1.84-.5A1.34,1.34,0,0,1,62.44,8.61Z"/>
+      <path class="cls-16" d="M62.11,8.8a1,1,0,0,1-.36,1.31.94.94,0,0,1-1.3-.35,1,1,0,0,1,.35-1.31A1,1,0,0,1,62.11,8.8Z"/>
+    </g>
+  </g>
+</svg>

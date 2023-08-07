@@ -1,0 +1,295 @@
+{
+  "panel_type": "local",
+  "panel_radius": 6,
+  "grid_radius": 80,
+  "nodeInfos": [
+    {
+      "id": "Siplace",
+      "coors": [0, 0],
+      "image": "project-finished.svg",
+      "shape": "hex_base",
+      "titletext": "Siplace",
+      "hovertext": "A PoC between DAI & SEWC",
+      "focustext": {
+        "内容简述": "关于贴片机故障信号分析的PoC项目",
+        "起止时间": "2022年2月~2022年6月",
+        "参与方": ["西门子成都智能制造示范工厂", "西门子中国研究院人工智能组"]
+      },
+      "link": "",
+      "effect": "",
+      "type": "项目"
+    },
+    {
+      "id": "DAI",
+      "coors": [-2, -2],
+      "image": "facility-b.svg",
+      "shape": "hex_base",
+      "titletext": "DAI-CN",
+      "hovertext": "西门子研究院关于人工智能方向的总体机构",
+      "focustext": null,
+      "link": "Local_DAI_1.json",
+      "effect": "",
+      "type": "组织机构"
+    },
+    {
+      "id": "SEWC",
+      "coors": [0, -4],
+      "image": "facility-b.svg",
+      "shape": "hex_base",
+      "titletext": "SEWC",
+      "hovertext": "西门子成都智能制造示范工厂 - Siemens Electronics Works Chengdu",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "组织机构"
+    },
+    {
+      "id": "device",
+      "coors": [-2, 2],
+      "image": "hardware-productionline.svg",
+      "shape": "hex_base",
+      "titletext": "贴片机",
+      "hovertext": "贴片机",
+      "focustext": null,
+      "link": "Local_Device.json",
+      "effect": "",
+      "type": "Device"
+    },
+    {
+      "id": "diagnosis",
+      "coors": [2, -2],
+      "image": "abstract-solution-cube.svg",
+      "shape": "hex_cube",
+      "titletext": "诊断",
+      "hovertext": "诊断",
+      "focustext": null,
+      "link": "Local_Event.json",
+      "effect": "bulb-white",
+      "type": "Diagnosis"
+    },
+    {
+      "id": "m1",
+      "coors": [-4, 0],
+      "image": "hardware-device_4_seq",
+      "shape": "hex_base",
+      "titletext": "贴片头",
+      "hovertext": "贴片头",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Module"
+    },
+    {
+      "id": "m2",
+      "coors": [-2, 6],
+      "image": "hardware-device_4_seq",
+      "shape": "hex_base",
+      "titletext": "PC控制系统",
+      "hovertext": "PC控制系统",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Module"
+    },
+    {
+      "id": "m3",
+      "coors": [-4, 4],
+      "image": "hardware-device_4_seq",
+      "shape": "hex_base",
+      "titletext": "WPC",
+      "hovertext": "WPC",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Module"
+    },
+    {
+      "id": "m4",
+      "coors": [0, 4],
+      "image": "hardware-device_4_seq",
+      "shape": "hex_base",
+      "titletext": "供料系统",
+      "hovertext": "贴片机供料系统",
+      "focustext": {
+        "供料系统": "贴片机核心模块之一",
+        "详细资料": "为供料器或送料器，也有叫喂料器，其作用是将SMD贴片元件安装在供料器上，供料器为贴片机提供元件进行贴片"
+      },
+      "link": "",
+      "effect": "",
+      "type": "Module"
+    },
+    {
+      "id": "mp47",
+      "coors": [2, 2],
+      "image": "hardware-part.svg",
+      "shape": "hex_base",
+      "titletext": "料车Interlock",
+      "hovertext": "供料系统-料车Interlock",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ModulePart"
+    },
+    {
+      "id": "mp48",
+      "coors": [2, 6],
+      "image": "hardware-part.svg",
+      "shape": "hex_base",
+      "titletext": "feeder",
+      "hovertext": "供料系统-feeder",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ModulePart"
+    },
+    {
+      "id": "mp49",
+      "coors": [0, 8],
+      "image": "hardware-part.svg",
+      "shape": "hex_base",
+      "titletext": "FCU",
+      "hovertext": "供料系统-FCU",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ModulePart"
+    },
+    {
+      "id": "mp50",
+      "coors": [4, 4],
+      "image": "hardware-part.svg",
+      "shape": "",
+      "titletext": "料车保护钢片",
+      "hovertext": "供料系统-料车保护钢片",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ModulePart"
+    }
+  ],
+  "edgeInfos": [
+    {
+      "id": "hold1",
+      "startnode": "device",
+      "endnode": "Siplace",
+      "hovertext": "项目归属",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "hold"
+    },
+    {
+      "id": "hold2",
+      "startnode": "diagnosis",
+      "endnode": "Siplace",
+      "hovertext": "项目归属",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "hold"
+    },
+    {
+      "id": "participate1",
+      "startnode": "DAI",
+      "endnode": "Siplace",
+      "hovertext": "参与项目",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "participate"
+    },
+    {
+      "id": "participate2",
+      "startnode": "SEWC",
+      "endnode": "Siplace",
+      "hovertext": "参与项目",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "participate"
+    },
+    {
+      "id": "component_1",
+      "startnode": "m1",
+      "endnode": "device",
+      "hovertext": "组件",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "component"
+    },
+    {
+      "id": "component_2",
+      "startnode": "m2",
+      "endnode": "device",
+      "hovertext": "组件",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "component"
+    },
+    {
+      "id": "component_3",
+      "startnode": "m3",
+      "endnode": "device",
+      "hovertext": "组件",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "component"
+    },
+    {
+      "id": "component_4",
+      "startnode": "m4",
+      "endnode": "device",
+      "hovertext": "组件",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "component"
+    },
+    {
+      "id": "is_part_of_47",
+      "startnode": "mp47",
+      "endnode": "m4",
+      "hovertext": "组成部分",
+      "focustext": {
+        "组成部分": "贴片机核心模块由多个独立子模块组成",
+        "详细资料": "组成部分从贴片机的物理结构出发，将贴片机的结构进行分解，方便后续问题发现与维护"
+      },
+      "line": "straight",
+      "path": [],
+      "type": "is_part_of"
+    },
+    {
+      "id": "is_part_of_48",
+      "startnode": "mp48",
+      "endnode": "m4",
+      "hovertext": "组成部分",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "is_part_of"
+    },
+    {
+      "id": "is_part_of_49",
+      "startnode": "mp49",
+      "endnode": "m4",
+      "hovertext": "组成部分",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "is_part_of"
+    },
+    {
+      "id": "is_part_of_50",
+      "startnode": "mp50",
+      "endnode": "m4",
+      "hovertext": "组成部分",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "is_part_of"
+    }
+  ]
+}

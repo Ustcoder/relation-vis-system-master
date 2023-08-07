@@ -1,0 +1,528 @@
+{
+  "panel_type": "global",
+  "panel_radius": 10,
+  "grid_radius": 56,
+  "nodeInfos": [
+    {
+      "id": "DAI",
+      "coors": [0, 0],
+      "image": "facility.svg",
+      "shape": "",
+      "titletext": "DAI-CN",
+      "hovertext": "An organization of global Siemens Technology",
+      "focustext": null,
+      "link": "Local_DAI_1.json",
+      "effect": "",
+      "type": "Organization"
+    },
+    {
+      "id": "DAV",
+      "coors": [0, 4],
+      "image": "facility.svg",
+      "shape": "",
+      "titletext": "DAV",
+      "hovertext": "Data Analytics of Vertical - Research Group in T-CN",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Organization"
+    },
+    {
+      "id": "AIC",
+      "coors": [2, -2],
+      "image": "facility.svg",
+      "shape": "",
+      "titletext": "AIC",
+      "hovertext": "AI Lab China - Research Group in T-CN",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Organization"
+    },
+    {
+      "id": "SEWC",
+      "coors": [-4, -8],
+      "image": "facility.svg",
+      "shape": "",
+      "titletext": "SEWC",
+      "hovertext": "Siemens Electronics Works Chengdu - Smart Factory in Siemens China",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Organization"
+    },
+    {
+      "id": "QY",
+      "coors": [-2, 2],
+      "image": "person.svg",
+      "shape": "",
+      "titletext": "QU Ying",
+      "hovertext": "RG Head of DAV",
+      "focustext": {
+        "Job Title": "Head of Research Group",
+        "Tech Focus": ["Optimazation", "Mathematics", "Management"]
+      },
+      "link": "",
+      "effect": "",
+      "type": "Person"
+    },
+    {
+      "id": "ZYL",
+      "coors": [0, -4],
+      "image": "person.svg",
+      "shape": "",
+      "titletext": "ZHANG Yingli",
+      "hovertext": "RD Head of AIC",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Person"
+    },
+    {
+      "id": "CXY",
+      "coors": [-2, -2],
+      "image": "person.svg",
+      "shape": "",
+      "titletext": "CHE Xiaoyin",
+      "hovertext": "Lead Research Scientist in DAV",
+      "focustext": {
+        "Job Title": "Lead Research Scientist",
+        "Tech Focus": ["NLP", "KG", "E-Learning"],
+        "Diplom": "Dr. rer. nat"
+      },
+      "link": "",
+      "effect": "",
+      "type": "Person"
+    },
+    {
+      "id": "LCC",
+      "coors": [-4, 4],
+      "image": "person.svg",
+      "shape": "",
+      "titletext": "LI Congchao",
+      "hovertext": "Senior Engineer in DAV",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Person"
+    },
+    {
+      "id": "LWC",
+      "coors": [-2, -6],
+      "image": "person.svg",
+      "shape": "",
+      "titletext": "LIU Weichuan",
+      "hovertext": "Lead Consultant in AIC",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Person"
+    },
+    {
+      "id": "LY",
+      "coors": [2, -6],
+      "image": "person.svg",
+      "shape": "",
+      "titletext": "LI Yang",
+      "hovertext": "Lead Consultant in AIC",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Person"
+    },
+    {
+      "id": "NKY",
+      "coors": [4, -4],
+      "image": "person.svg",
+      "shape": "",
+      "titletext": "NI Kunyi",
+      "hovertext": "Consultant in AIC",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Person"
+    },
+    {
+      "id": "NLP",
+      "coors": [2, 2],
+      "image": "reason.svg",
+      "shape": "",
+      "titletext": "NLP & KG",
+      "hovertext": "3rd of 3 major research directions in DAV",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Portfolio"
+    },
+    {
+      "id": "Optimization",
+      "coors": [-2, 6],
+      "image": "reason.svg",
+      "shape": "",
+      "titletext": "Optimization",
+      "hovertext": "2nd of 3 major research directions in DAV",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Portfolio"
+    },
+    {
+      "id": "PdM",
+      "coors": [0, 8],
+      "image": "reason.svg",
+      "shape": "",
+      "titletext": "PdM",
+      "hovertext": "1st of 3 major research directions in DAV",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Portfolio"
+    },
+    {
+      "id": "Siplace",
+      "coors": [-4, -4],
+      "image": "project.svg",
+      "shape": "",
+      "titletext": "Siplace",
+      "hovertext": "A PoC between DAI & SEWC",
+      "focustext": null,
+      "link": "Local_Siplace.json",
+      "effect": "",
+      "type": "Project"
+    },
+    {
+      "id": "DTW",
+      "coors": [0, -8],
+      "image": "project.svg",
+      "shape": "",
+      "titletext": "DTW",
+      "hovertext": "A Workshop between SEWC & DAI",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Project"
+    },
+    {
+      "id": "AIDA",
+      "coors": [-4, 0],
+      "image": "hardware.svg",
+      "shape": "",
+      "titletext": "AIDA",
+      "hovertext": "A major product/system in DAV",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Product"
+    },
+    {
+      "id": "KGrapE",
+      "coors": [4, 0],
+      "image": "hardware.svg",
+      "shape": "",
+      "titletext": "KGrapE",
+      "hovertext": "An important product/system held by AIC",
+      "focustext": null,
+      "link": "Local_KGrapE.json",
+      "effect": "",
+      "type": "Product"
+    },
+    {
+      "id": "RUL",
+      "coors": [2, 6],
+      "image": "hardware.svg",
+      "shape": "",
+      "titletext": "RUL",
+      "hovertext": "A major product/system in DAV",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Product"
+    }
+  ],
+  "edgeInfos": [
+    {
+      "id": "e1",
+      "startnode": "DAI",
+      "endnode": "AIC",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e2",
+      "startnode": "DAI",
+      "endnode": "DAV",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e3",
+      "startnode": "DAV",
+      "endnode": "QY",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e4",
+      "startnode": "DAV",
+      "endnode": "NLP",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e5",
+      "startnode": "DAV",
+      "endnode": "Optimization",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e6",
+      "startnode": "DAV",
+      "endnode": "PdM",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e7",
+      "startnode": "QY",
+      "endnode": "CXY",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e8",
+      "startnode": "QY",
+      "endnode": "LCC",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e9",
+      "startnode": "CXY",
+      "endnode": "NLP",
+      "hovertext": "",
+      "focustext": null,
+      "line": "elbow",
+      "path": [
+        [-2, -2],
+        [-1, -3],
+        [0, -2],
+        [1, -1],
+        [2, 0],
+        [2, 2]
+      ],
+      "type": "related"
+    },
+    {
+      "id": "e10",
+      "startnode": "AIC",
+      "endnode": "ZYL",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e11",
+      "startnode": "ZYL",
+      "endnode": "LWC",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e12",
+      "startnode": "ZYL",
+      "endnode": "LY",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e13",
+      "startnode": "ZYL",
+      "endnode": "NKY",
+      "hovertext": "",
+      "focustext": null,
+      "line": "elbow",
+      "path": [
+        [0, -4],
+        [1, -3],
+        [2, -4],
+        [3, -5],
+        [4, -4]
+      ],
+      "type": "related"
+    },
+    {
+      "id": "e14",
+      "startnode": "DTW",
+      "endnode": "LWC",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e15",
+      "startnode": "DTW",
+      "endnode": "LY",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e16",
+      "startnode": "Siplace",
+      "endnode": "LWC",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e17",
+      "startnode": "Siplace",
+      "endnode": "CXY",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e18",
+      "startnode": "Siplace",
+      "endnode": "LCC",
+      "hovertext": "",
+      "focustext": null,
+      "line": "elbow",
+      "path": [
+        [-4, -4],
+        [-5, -3],
+        [-5, -1],
+        [-5, 1],
+        [-5, 3],
+        [-4, 4]
+      ],
+      "type": "related"
+    },
+    {
+      "id": "e19",
+      "startnode": "DTW",
+      "endnode": "SEWC",
+      "hovertext": "",
+      "focustext": null,
+      "line": "elbow",
+      "path": [
+        [0, -8],
+        [-1, -9],
+        [-2, -8],
+        [-3, -7],
+        [-4, -8]
+      ],
+      "type": "related"
+    },
+    {
+      "id": "e20",
+      "startnode": "Siplace",
+      "endnode": "SEWC",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e21",
+      "startnode": "AIDA",
+      "endnode": "NLP",
+      "hovertext": "",
+      "focustext": null,
+      "line": "elbow",
+      "path": [
+        [-4, 0],
+        [-3, 1],
+        [-2, 0],
+        [-1, 1],
+        [0, 2],
+        [1, 1],
+        [2, 2]
+      ],
+      "type": "related"
+    },
+    {
+      "id": "e22",
+      "startnode": "AIDA",
+      "endnode": "CXY",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e23",
+      "startnode": "KGrapE",
+      "endnode": "AIC",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e24",
+      "startnode": "KGrapE",
+      "endnode": "NKY",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e25",
+      "startnode": "RUL",
+      "endnode": "PdM",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "panel_type": "local",
+  "panel_radius": 6,
+  "grid_radius": 80,
+  "nodeInfos": [
+    {
+      "id": "KGrapE",
+      "coors": [0, 0],
+      "image": "project-ongoing.svg",
+      "shape": "",
+      "titletext": "KGrapE",
+      "hovertext": "An important product/system held by AIC",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Product"
+    },
+    {
+      "id": "DAV",
+      "coors": [-4, 0],
+      "image": "facility-a.svg",
+      "shape": "",
+      "titletext": "DAV",
+      "hovertext": "Data Analytics of Vertical - Research Group in T-CN",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Organization"
+    },
+    {
+      "id": "AIC",
+      "coors": [2, -2],
+      "image": "facility-a.svg",
+      "shape": "",
+      "titletext": "AIC",
+      "hovertext": "AI Lab China - Research Group in T-CN",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Organization"
+    },
+    {
+      "id": "CXY",
+      "coors": [-2, 2],
+      "image": "person-manager-b.svg",
+      "shape": "",
+      "titletext": "CHE Xiaoyin",
+      "hovertext": "Lead Research Scientist in DAV, the idea proposer of KGrapE",
+      "focustext": {
+        "Job Title": "Lead Research Scientist",
+        "Tech Focus": ["NLP", "KG", "E-Learning"],
+        "Diplom": "Dr. rer. nat"
+      },
+      "link": "",
+      "effect": "",
+      "type": "Person"
+    },
+    {
+      "id": "LCC",
+      "coors": [-2, -2],
+      "image": "person-worker-b.svg",
+      "shape": "",
+      "titletext": "LI Congchao",
+      "hovertext": "Senior Engineer in DAV, major developer of KGrapE",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Person"
+    },
+    {
+      "id": "LWC",
+      "coors": [0, -4],
+      "image": "person-client-b.svg",
+      "shape": "",
+      "titletext": "LIU Weichuan",
+      "hovertext": "Lead Consultant in AIC, finacial holder of KGrapE",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Person"
+    },
+    {
+      "id": "LY",
+      "coors": [2, -6],
+      "image": "person-client-b.svg",
+      "shape": "",
+      "titletext": "LI Yang",
+      "hovertext": "Lead Consultant in AIC, principle designer of KGrapE",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Person"
+    },
+    {
+      "id": "NKY",
+      "coors": [2, 2],
+      "image": "person-manager-b.svg",
+      "shape": "",
+      "titletext": "NI Kunyi",
+      "hovertext": "Consultant in AIC, main project coordinator of KGrapE",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Person"
+    },
+    {
+      "id": "KG",
+      "coors": [0, 4],
+      "image": "abstract-solution_2_seq",
+      "shape": "",
+      "titletext": "Knowledge Graph",
+      "hovertext": "Knowledge Graph is a popular technology used across the world, including KGrapE.",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Technology"
+    },
+    {
+      "id": "VD",
+      "coors": [-2, 6],
+      "image": "abstract-solution_2_seq",
+      "shape": "",
+      "titletext": "Visual Design",
+      "hovertext": "Attractive visual design is the major USP of KGrapE.",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Technology"
+    },
+    {
+      "id": "Siplace",
+      "coors": [2, 6],
+      "image": "project-finished.svg",
+      "shape": "1",
+      "titletext": "Siplace",
+      "hovertext": "A PoC between DAI & SEWC",
+      "focustext": {
+        "内容简述": "关于贴片机故障信号分析的PoC项目",
+        "起止时间": "2022年2月~2022年6月",
+        "参与方": ["西门子成都智能制造示范工厂", "西门子中国研究院人工智能组"]
+      },
+      "link": "Local_Siplace.json",
+      "effect": "bulb-white",
+      "type": "Project"
+    }
+  ],
+  "edgeInfos": [
+    {
+      "id": "e1",
+      "startnode": "KGrapE",
+      "endnode": "KG",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    },
+    {
+      "id": "e2",
+      "startnode": "KGrapE",
+      "endnode": "VD",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    },
+    {
+      "id": "e3",
+      "startnode": "KGrapE",
+      "endnode": "Siplace",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    },
+    {
+      "id": "e4",
+      "startnode": "DAV",
+      "endnode": "CXY",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    },
+    {
+      "id": "e5",
+      "startnode": "DAV",
+      "endnode": "LCC",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    },
+    {
+      "id": "e6",
+      "startnode": "AIC",
+      "endnode": "LWC",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    },
+    {
+      "id": "e7",
+      "startnode": "AIC",
+      "endnode": "LY",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    },
+    {
+      "id": "e8",
+      "startnode": "AIC",
+      "endnode": "NKY",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    },
+    {
+      "id": "e9",
+      "startnode": "KGrapE",
+      "endnode": "CXY",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    },
+    {
+      "id": "e10",
+      "startnode": "KGrapE",
+      "endnode": "LCC",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    },
+    {
+      "id": "e11",
+      "startnode": "KGrapE",
+      "endnode": "LWC",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    },
+    {
+      "id": "e12",
+      "startnode": "KGrapE",
+      "endnode": "LY",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    },
+    {
+      "id": "e13",
+      "startnode": "KGrapE",
+      "endnode": "NKY",
+      "hovertext": "connection",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "connection"
+    }
+  ]
+}

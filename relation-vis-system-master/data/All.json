@@ -1,0 +1,32 @@
+{
+  "panel_type": "global",
+  "panel_radius": 10,
+  "grid_radius": 56,
+  "nodeInfos": [
+    {
+      "id": "facility",
+      "coors": [0, 0],
+      "image": "facility.svg",
+      "shape": "",
+      "titletext": "facility",
+      "hovertext": "facility",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Organization"
+    },
+    {
+      "id": "facility",
+      "coors": [0, 0],
+      "image": "facility.svg",
+      "shape": "",
+      "titletext": "facility",
+      "hovertext": "facility",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Organization"
+    },
+  ],
+  "edgeInfos": []
+}

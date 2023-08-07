@@ -1,0 +1,68 @@
+{
+  "panel_type": "local",
+  "panel_radius": 5,
+  "grid_radius": 40,
+  "nodeInfos": [
+    {
+      "id": "DAI",
+      "coors": [0, 0],
+      "image": "home.png",
+      "shape": "",
+      "titletext": "子设备",
+      "hovertext": "子设备",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Organization"
+    },
+    {
+      "id": "DAI21",
+      "coors": [3, -3],
+      "image": "compute.png",
+      "shape": "",
+      "titletext": "电脑",
+      "hovertext": "电脑电脑电脑电脑电脑",
+      "focustext": null,
+      "link": "Local_DAI_1.json",
+      "effect": "bulb-white",
+      "type": "Organization"
+    },
+    {
+      "id": "AIC21",
+      "coors": [-2, 2],
+      "image": "person.png",
+      "shape": "",
+      "titletext": "AIC信息",
+      "hovertext": "AIC信息AIC信息AIC信息",
+      "focustext": {
+        "Job Title": "AIC信息",
+        "特长": ["维修", "外语", "喝酒"]
+      },
+      "link": "",
+      "effect": "",
+      "type": "Organization"
+    }
+  ],
+  "edgeInfos": [
+    {
+      "id": "e1",
+      "startnode": "DAI",
+      "endnode": "DAI21",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    },
+    {
+      "id": "e2",
+      "startnode": "DAI",
+      "endnode": "AIC21",
+      "hovertext": "",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "related"
+    }
+  ]
+}

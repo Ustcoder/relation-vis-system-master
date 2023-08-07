@@ -1,0 +1,502 @@
+{
+  "panel_type": "local",
+  "panel_radius": 6,
+  "grid_radius": 80,
+  "nodeInfos": [
+    {
+      "id": "DAI",
+      "coors": [0, 0],
+      "image": "facility-b.svg",
+      "shape": "hex_base",
+      "titletext": "DAI",
+      "hovertext": "“数据分析与人工智能”研发机构——西门子研究院全球范围内的一个“技术领域 (Technology Field)”",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "组织机构"
+    },
+    {
+      "id": "DAV",
+      "coors": [2, 2],
+      "image": "facility-a.svg",
+      "shape": "hex_base",
+      "titletext": "DAV",
+      "hovertext": "“大数据分析与人工智能研发部”——西门子中国研究院的一个研究组",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "组织机构"
+    },
+    {
+      "id": "AIC",
+      "coors": [2, -2],
+      "image": "facility-a.svg",
+      "shape": "hex_base",
+      "titletext": "AIC",
+      "hovertext": "“人工智能实验室”——西门子中国研究院的一个研究组",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "组织机构"
+    },
+    {
+      "id": "SEWC",
+      "coors": [-4, 0],
+      "image": "facility-b.svg",
+      "shape": "hex_base",
+      "titletext": "SEWC",
+      "hovertext": "西门子成都智能制造示范工厂 - Siemens Electronics Works Chengdu",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "组织机构"
+    },
+    {
+      "id": "QY",
+      "coors": [-2, 6],
+      "image": "person-client-b.svg",
+      "shape": "round_base",
+      "titletext": "曲颖",
+      "hovertext": "DAV组-组长",
+      "focustext": {
+        "当前职位": "研究组组长",
+        "研究方向": ["优化", "数学", "管理"]
+      },
+      "link": "",
+      "effect": "bulb-white",
+      "type": "人物"
+    },
+    {
+      "id": "ZYL",
+      "coors": [0, -4],
+      "image": "person-client-b.svg",
+      "shape": "round_base",
+      "titletext": "张英丽",
+      "hovertext": "DAI组-组长",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "人物"
+    },
+    {
+      "id": "CXY",
+      "coors": [0, 4],
+      "image": "person-manager-b.svg",
+      "shape": "round_base",
+      "titletext": "车效音",
+      "hovertext": "DAV组-高级研究员",
+      "focustext": {
+        "当前职位": "高级研究员",
+        "研究方向": ["自然语言处理", "知识图谱", "在线教育"],
+        "学历学位": "Dr. rer. nat"
+      },
+      "link": "",
+      "effect": "bulb-white",
+      "type": "人物"
+    },
+    {
+      "id": "LCC",
+      "coors": [-4, 4],
+      "image": "person-worker-b.svg",
+      "shape": "round_base",
+      "titletext": "李聪超",
+      "hovertext": "DAV组-资深工程师",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "人物"
+    },
+    {
+      "id": "LWC",
+      "coors": [-2, -2],
+      "image": "person-manager-b.svg",
+      "shape": "round_base",
+      "titletext": "刘伟川",
+      "hovertext": "DAI组-高级顾问",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "人物"
+    },
+    {
+      "id": "LY",
+      "coors": [-2, -6],
+      "image": "person-manager-b.svg",
+      "shape": "round_base",
+      "titletext": "李杨",
+      "hovertext": "DAI组-高级顾问",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "人物"
+    },
+    {
+      "id": "NKY",
+      "coors": [0, -8],
+      "image": "person-manager-b.svg",
+      "shape": "round_base",
+      "titletext": "倪坤仪",
+      "hovertext": "DAI组-顾问",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "人物"
+    },
+    {
+      "id": "NLP",
+      "coors": [2, 6],
+      "image": "hardware-device_4_seq",
+      "shape": "hex_base",
+      "titletext": "NLP & KG",
+      "hovertext": "DAV组三个主要研究方向之一，专注于对文本数据和知识进行智能化管理与应用",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "技术方向"
+    },
+    {
+      "id": "Optimization",
+      "coors": [4, 4],
+      "image": "hardware-sensor.svg",
+      "shape": "hex_base",
+      "titletext": "优化",
+      "hovertext": "DAV组三个主要研究方向之一，专注于通过数学分析提高工业企业运行的效率",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "技术方向"
+    },
+    {
+      "id": "PdM",
+      "coors": [4, 0],
+      "image": "hardware-productionline.svg",
+      "shape": "hex_base",
+      "titletext": "预测分析",
+      "hovertext": "DAV组三个主要研究方向之一，专注于通过机器学习方法对于工业生产过程“防患于未然”",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "技术方向"
+    },
+    {
+      "id": "Siplace",
+      "coors": [-2, 2],
+      "image": "project-finished.svg",
+      "shape": "hex_base",
+      "titletext": "Siplace",
+      "hovertext": "一个示范性项目，关于构建贴片机产线的知识图谱并进行故障诊断，是DAI与SEWC两家机构之间的第一次合作",
+      "focustext": {
+        "内容简述": "关于贴片机故障信号分析的PoC项目",
+        "起止时间": "2022年2月~2022年6月",
+        "参与方": ["西门子成都智能制造示范工厂", "西门子中国研究院人工智能组"]
+      },
+      "link": "Local_Siplace.json",
+      "effect": "bulb-white",
+      "type": "项目"
+    },
+    {
+      "id": "DTW",
+      "coors": [-4, -4],
+      "image": "project-ongoing.svg",
+      "shape": "hex_base",
+      "titletext": "设计思维工作坊",
+      "hovertext": "A Workshop between SEWC & DAI",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "项目"
+    },
+    {
+      "id": "AIDA",
+      "coors": [0, 8],
+      "image": "abstract-solution_2_seq",
+      "shape": "hex_cube",
+      "titletext": "AIDA",
+      "hovertext": "A major product/system in DAV",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "产品"
+    },
+    {
+      "id": "KGrapE",
+      "coors": [2, -6],
+      "image": "abstract-solution_2_seq",
+      "shape": "hex_cube",
+      "titletext": "KGrapE",
+      "hovertext": "An important product/system held by AIC",
+      "focustext": null,
+      "link": "Local_KGrapE.json",
+      "effect": "",
+      "type": "产品"
+    },
+    {
+      "id": "RUL",
+      "coors": [4, -4],
+      "image": "abstract-solution_2_seq",
+      "shape": "hex_cube",
+      "titletext": "RUL",
+      "hovertext": "A major product/system in DAV",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "产品"
+    }
+  ],
+  "edgeInfos": [
+    {
+      "id": "e1",
+      "startnode": "DAI",
+      "endnode": "AIC",
+      "hovertext": "机构包含关系",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "include"
+    },
+    {
+      "id": "e2",
+      "startnode": "DAI",
+      "endnode": "DAV",
+      "hovertext": "机构包含关系",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "include"
+    },
+    {
+      "id": "e3",
+      "startnode": "DAV",
+      "endnode": "QY",
+      "hovertext": "领导该组",
+      "focustext": null,
+      "line": "curve",
+      "path": [],
+      "type": "lead"
+    },
+    {
+      "id": "e4",
+      "startnode": "DAV",
+      "endnode": "NLP",
+      "hovertext": "主要研究方向",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "research"
+    },
+    {
+      "id": "e5",
+      "startnode": "DAV",
+      "endnode": "Optimization",
+      "hovertext": "主要研究方向",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "research"
+    },
+    {
+      "id": "e6",
+      "startnode": "DAV",
+      "endnode": "PdM",
+      "hovertext": "主要研究方向",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "research"
+    },
+    {
+      "id": "e7",
+      "startnode": "QY",
+      "endnode": "CXY",
+      "hovertext": "上下级关系",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "Superior-Subordinate"
+    },
+    {
+      "id": "e8",
+      "startnode": "QY",
+      "endnode": "LCC",
+      "hovertext": "上下级关系",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "Superior-Subordinate"
+    },
+    {
+      "id": "e9",
+      "startnode": "CXY",
+      "endnode": "NLP",
+      "hovertext": "负责该方向",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "take charge"
+    },
+    {
+      "id": "e10",
+      "startnode": "AIC",
+      "endnode": "ZYL",
+      "hovertext": "领导该组",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "lead"
+    },
+    {
+      "id": "e11",
+      "startnode": "ZYL",
+      "endnode": "LWC",
+      "hovertext": "上下级关系",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "Superior-Subordinate"
+    },
+    {
+      "id": "e12",
+      "startnode": "ZYL",
+      "endnode": "LY",
+      "hovertext": "上下级关系",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "Superior-Subordinate"
+    },
+    {
+      "id": "e13",
+      "startnode": "ZYL",
+      "endnode": "NKY",
+      "hovertext": "上下级关系",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "Superior-Subordinate"
+    },
+    {
+      "id": "e14",
+      "startnode": "DTW",
+      "endnode": "LWC",
+      "hovertext": "参与项目",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "participate"
+    },
+    {
+      "id": "e15",
+      "startnode": "DTW",
+      "endnode": "LY",
+      "hovertext": "参与项目",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "participate"
+    },
+    {
+      "id": "e16",
+      "startnode": "Siplace",
+      "endnode": "LWC",
+      "hovertext": "参与项目",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "participate"
+    },
+    {
+      "id": "e17",
+      "startnode": "Siplace",
+      "endnode": "CXY",
+      "hovertext": "参与项目",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "participate"
+    },
+    {
+      "id": "e18",
+      "startnode": "Siplace",
+      "endnode": "LCC",
+      "hovertext": "参与项目",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "participate"
+    },
+    {
+      "id": "e19",
+      "startnode": "DTW",
+      "endnode": "SEWC",
+      "hovertext": "项目归属",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "hold"
+    },
+    {
+      "id": "e20",
+      "startnode": "Siplace",
+      "endnode": "SEWC",
+      "hovertext": "项目归属",
+      "focustext": {
+        "内容简述": "关于贴片机故障信号分析的PoC项目",
+        "起止时间": "2022年2月~2022年6月",
+        "参与方": ["西门子成都智能制造示范工厂", "西门子中国研究院人工智能组"]
+      },
+      "line": "straight",
+      "path": [],
+      "type": "hold"
+    },
+    {
+      "id": "e21",
+      "startnode": "AIDA",
+      "endnode": "NLP",
+      "hovertext": "主要产品",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "attach"
+    },
+    {
+      "id": "e22",
+      "startnode": "AIDA",
+      "endnode": "CXY",
+      "hovertext": "参与研发",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "do"
+    },
+    {
+      "id": "e23",
+      "startnode": "KGrapE",
+      "endnode": "AIC",
+      "hovertext": "主要产品",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "attach"
+    },
+    {
+      "id": "e24",
+      "startnode": "KGrapE",
+      "endnode": "NKY",
+      "hovertext": "参与研发",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "do"
+    },
+    {
+      "id": "e25",
+      "startnode": "RUL",
+      "endnode": "PdM",
+      "hovertext": "主要产品",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "attach"
+    }
+  ]
+}

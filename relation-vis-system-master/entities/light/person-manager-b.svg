@@ -1,0 +1,31 @@
+<svg id="图层_5" data-name="图层 5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 79 78" width='79' height='78'>
+  <defs>
+    <style>.cls-1{fill:#f7f7f7;}.cls-2{fill:#d8d8d8;}.cls-3{fill:#e8e8e8;}.cls-4{fill:#efefef;}.cls-16,.cls-5{fill:#0087be;}.cls-6{fill:#00aeeb;}.cls-7{fill:#868686;}.cls-8{fill:#03e5e1;}.cls-9{fill:url(#未命名的渐变_38);}.cls-10{fill:#331500;}.cls-11{fill:#fff;}.cls-11,.cls-12,.cls-13,.cls-14,.cls-15,.cls-16{fill-rule:evenodd;}.cls-12{fill:#231815;}.cls-13{fill:#e5e5e6;}.cls-14{fill:#f0f0f0;}.cls-15{fill:#1afff3;}</style>
+    <radialGradient id="未命名的渐变_38" cx="39.22" cy="9" r="10.98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f1d00"/>
+      <stop offset="1" stop-color="#331500"/>
+    </radialGradient>
+  </defs>
+  <title>图标3</title>
+  <polygon class="cls-1" points="78.75 49.01 68.69 71.43 28.59 77.65 0.25 61.43 0.25 53.79 78.75 41.38 78.75 49.01"/>
+  <polygon class="cls-2" points="78.75 49.01 68.69 71.43 68.69 63.79 78.75 41.38 78.75 49.01"/>
+  <polygon class="cls-3" points="78.75 41.38 68.69 63.79 28.59 70.02 0.25 53.79 10.7 31.24 50.95 25.35 78.75 41.38"/>
+  <polygon class="cls-4" points="68.69 63.79 68.69 71.43 28.59 77.65 28.59 70.02 68.69 63.79"/>
+  <path class="cls-5" d="M58.91,55.67V31.49L48.18,37.68V61.87Zm0,0"/>
+  <path class="cls-6" d="M29.35,14.42l-10.73,6.2L48.18,37.68l10.73-6.19Zm0,0"/>
+  <path class="cls-7" d="M18.62,20.61V44.78L48.18,61.85V37.68Zm0,0"/>
+  <path class="cls-8" d="M18.62,20.61V44.78L48.18,61.85V37.68Zm0,0"/>
+  <path class="cls-9" d="M38.69,1.24,25.77,8.7l14,8.07L52.67,9.31Zm0,0"/>
+  <path class="cls-3" d="M25.77,8.7v19l14,8.08V16.78Zm0,0"/>
+  <path class="cls-2" d="M52.7,9.32,39.78,16.78V35.73L52.7,28.27Zm0,0"/>
+  <path class="cls-10" d="M52.7,9.32,39.78,16.78V20l2.52-1.42V27l3.94-2.14v2.45L52.7,24ZM25.77,8.7v3.75l11.17,9v-3.2L39.78,20v-3.2Zm0,0"/>
+  <polygon class="cls-11" points="38.68 35.09 32.25 46.21 26.82 28.25 38.68 35.09"/>
+  <polygon class="cls-12" points="33.66 43.78 32.25 46.21 30.93 41.85 31.45 30.91 33.05 31.84 33.66 43.78"/>
+  <polygon class="cls-11" points="39.91 41.28 44.47 43.92 44.47 45.52 39.91 42.88 39.91 41.28"/>
+  <polygon class="cls-13" points="45.2 43.5 44.47 43.92 44.47 45.52 45.2 45.1 45.2 43.5"/>
+  <polygon class="cls-14" points="40.64 40.86 45.2 43.5 44.47 43.92 39.91 41.28 40.64 40.86"/>
+  <polygon class="cls-15" points="39.91 42.88 44.47 45.52 44.47 51.21 39.91 48.58 39.91 42.88"/>
+  <polygon class="cls-16" points="45.2 45.1 44.47 45.52 44.47 51.21 45.2 50.79 45.2 45.1"/>
+</svg>

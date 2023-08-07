@@ -1,0 +1,354 @@
+.pear-admin .layui-header {
+    left: 230px;
+    width: calc(100% - 230px);
+    height: 50px;
+    background-color: #28333e;
+    border-bottom: 1px solid #393636;
+}
+
+.pear-admin .layui-header.full{
+	left: 0;
+	width: 100%;
+}
+
+.layui-nav{
+	background-color: #28333e;
+	color:#fafafa;
+}
+
+.pear-admin .layui-logo .title {
+    font-size: 21px;
+    font-weight: 550;
+    color: #dae6dd;
+    position: relative;
+    top: 5px;
+    margin-left: 5px;
+}
+
+.pear-admin .layui-header .layui-nav .layui-nav-item>a {
+    color: #fafafa;
+    font-size: 20px;
+	 padding: 0 15px;
+}
+
+.rotate90{
+	transform: rotate(90deg);
+}
+
+.pear-admin .layui-side {
+    top: 0px;
+    width: 230px;
+    box-shadow: 2px 0 6px rgb(0 21 41 / 35%);
+    z-index: 9999;
+    background: #28333e;
+}
+
+.pear-admin .layui-side-scroll {
+    height: calc(100% - 58px)!important;
+    /* background-color:#fafafa; */
+    width: 247px;
+}
+
+.pear-admin .layui-logo {
+    width: 230px;
+	height: 50px;
+	line-height: 40px;
+	position: relative;
+	background-color: #28333E;
+	text-align: center;
+}
+
+.pear-admin .layui-body.full{
+	left: 0;
+}
+
+.pear-admin .layui-body {
+    left: 230px;
+    bottom: 0px;
+    position: fixed;
+    top: 50px;
+    overflow: hidden;
+}
+
+.header-switch{
+	position:absolute;
+	top:0;
+	right:100px;
+	color:#fafafa;
+}
+
+.page-title{
+	display: inline-block;
+	width:200px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	color: #c8bdbd;
+	border-right: 1px solid #37383c;
+}
+
+.search-wrap{
+	display: inline-block;
+	position: relative;
+	width:180px;
+}
+.search-wrap > input{
+	background-color: #28333e;
+	border: 1px solid #646569;
+	border-radius: 5px;
+	height: 30px;
+	padding-right: 18px;
+	color: #c6c6c6;
+}
+
+.search-wrap > i{
+	display: inline;
+	position: absolute;
+	right: 3px;
+	top: 8px;
+	color:#646569;
+}
+
+input::-webkit-input-placeholder {
+	color: #646569;
+}
+
+/** 画布背景图的样式 **/
+.graph-panel{
+	height:100%;
+	width:100%;
+	overflow: hidden;
+	background-color:#050d30;
+}
+.graph-panel.bgimg{
+	background: url("../images/bg/bg1.png") no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+/** layui弹框样式定制 ***/
+.layui-layer {
+    -webkit-overflow-scrolling: touch;
+    top: 150px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #28333e !important;
+    -webkit-background-clip: content;
+    border-radius: 2px;
+    box-shadow: 1px 1px 50px rgba(0,0,0,.3);
+}
+
+.layui-layer-title {
+    padding: 0 80px 0 20px;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #3d2d2d !important ;
+    font-size: 14px;
+    color: #fff !important;
+    overflow: hidden;
+    background-color: #1c2a37 !important;
+    border-radius: 2px 2px 0 0;
+}
+
+.layui-layer-setwin .layui-layer-close1 {
+    background-position: -156px -38px !important;
+    cursor: pointer;
+}
+
+.layui-table {
+    width: 100%;
+    background-color: transparent;
+    color: #fafafa;
+}
+
+.layui-table td, .layui-table th {
+    position: relative;
+    padding: 9px 15px;
+    min-height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    border: 1px solid #383941;
+    color: #b1b1bb;
+}
+
+.layui-table tbody tr:hover,.layui-table tbody td:hover{
+	background-color: transparent;
+}
+
+.nodata-tip{
+	text-align: center;
+	font-size: 14px;
+	color: #7f7a7a;
+	height: 50px;
+	line-height: 50px;
+}
+
+
+.layui-form-item{
+	display: inline-block;
+	width: 100px;
+}
+
+.layui-form-item .layui-input-inline {
+    float: left;
+    width: 90px;
+    margin-right: 10px;
+}
+
+/******节点提示层样式*********/
+.node-tip{
+	position: absolute;
+	top: 50px;
+	left: 300px;
+	z-index: 999999;
+	display: none;
+	width:220px;
+	height:60px;
+	padding: 8px;
+	color:#fafafa;
+	font-size: 13px;
+	line-height: 20px;
+	background-color: rgba(5,62,79,0.8);
+    border: 1px solid #5f6397;
+}
+
+.node-tip > .node-tip-content{
+	width:190px;
+}
+
+#node-tip-title{
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 190px;
+	color:#fafafa;
+}
+
+.tip-desc{
+	width: 190px;
+	height: 40px;
+	color:#cdcdcd;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.node-tip > .toolbar-btns{
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	color:#fff;
+	width : 30px;
+}
+
+.node-tip > .toolbar-btns > a{
+	color: #6ca1bf;
+	border: 1px solid #2381a3;
+	font-size: 13px;
+	line-height: 26px;
+	padding: 2px;
+}
+
+.node-tip > .toolbar-btns > a:hover{
+	color: #00aaff;
+	border: 1px solid #00aaff;
+}
+
+#tip-btns .alink.disabled{
+	color : #8c8c90;
+	border: 1px solid #8c8c90;
+	cursor: not-allowed;
+}
+
+#tip-btns .alink.disabled:hover{
+	color : #8c8c90;
+	border: 1px solid #8c8c90;
+}
+
+/**图工具栏样式***/
+.graph-toolbar{
+	position: absolute;
+	z-index: 99999;
+	left: 0;
+	top: 10px;
+	/* bottom: 0; */
+	width:40px;
+	background: #28333e;
+	text-align: center;
+}
+
+.hidden{
+	display: none !important;
+}
+
+.graph-toolbar > a.toolbar-btn{
+	display: inline-block;
+	width: 30px;
+	height: 40px;
+	line-height: 40px;
+	color:#ddd;
+	text-align: center;
+	font-size: 16px;
+}
+
+.graph-toolbar > a.toolbar-btn:hover{
+	color:#fafafa;
+}
+
+
+/******上下左右移动的图标*******/
+.vis-navigation{
+	position:absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 9999;
+	width: 150px;
+	height: 100px;
+}
+
+.vis-navigation div.vis-button {
+    width:34px;
+    height:34px;
+    -moz-border-radius: 17px;
+    border-radius: 17px;
+    position:absolute;
+    display:inline-block;
+    background-position: 2px 2px;
+    background-repeat:no-repeat;
+    cursor: pointer;
+
+}
+
+.vis-navigation div.vis-button:hover {
+    box-shadow: 0 0 3px 3px rgba(56, 207, 21, 0.30);
+}
+
+.vis-navigation div.vis-button:active {
+    box-shadow: 0 0 1px 3px rgba(56, 207, 21, 0.95);
+}
+
+.vis-navigation div.vis-button.vis-up {
+    background-image: url("image/upArrow.png");
+    bottom:50px;
+    left:55px;
+}
+.vis-navigation div.vis-button.vis-down {
+    background-image: url("image/downArrow.png");
+    bottom:10px;
+    left:55px;
+}
+.vis-navigation div.vis-button.vis-left {
+    background-image: url("image/leftArrow.png");
+    bottom:10px;
+    left:15px;
+}
+.vis-navigation div.vis-button.vis-right {
+    background-image: url("image/rightArrow.png");
+    bottom:10px;
+    left:95px;
+}

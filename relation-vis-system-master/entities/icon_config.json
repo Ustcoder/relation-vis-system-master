@@ -1,0 +1,149 @@
+{
+  "icon_grid_align": {
+    "round_base": [78, 129, 24, 37],
+    "hex_base": [87, 129, 25, 37],
+    "hex_cube": [80, 129, 18, 37]
+  },
+  "icon_settings": [
+    {
+      "image": "abstract-faultevent.svg",
+      "align": "hex_cube",
+      "offset": [11, 78]
+    },
+    {
+      "image": "abstract-faultphenomenon.svg",
+      "align": "hex_cube",
+      "offset": [11, 78]
+    },
+    {
+      "image": "abstract-faultphenomenon_2_seq",
+      "align": "hex_cube",
+      "offset": [11, 78]
+    },
+    {
+      "image": "abstract-faultreason.svg",
+      "align": "hex_cube",
+      "offset": [11, 78]
+    },
+    {
+      "image": "abstract-signal.svg",
+      "align": "hex_cube",
+      "offset": [40, 78]
+    },
+    {
+      "image": "abstract-signal_2_seq",
+      "align": "hex_cube",
+      "offset": [40, 78]
+    },
+    {
+      "image": "abstract-faultevent_2_seq",
+      "align": "hex_cube",
+      "offset": [11, 78]
+    },
+    {
+      "image": "abstract-signal-cube.svg",
+      "align": "hex_cube",
+      "offset": [24, 76]
+    },
+    {
+      "image": "abstract-solution.svg",
+      "align": "hex_cube",
+      "offset": [40, 78]
+    },
+    {
+      "image": "abstract-solution_2_seq",
+      "align": "hex_cube",
+      "offset": [40, 78]
+    },
+    {
+      "image": "abstract-solution-cube.svg",
+      "align": "hex_cube",
+      "offset": [24, 84]
+    },
+    {
+      "image": "data-database.svg",
+      "align": "hex_base",
+      "offset": [12, 80]
+    },
+    {
+      "image": "facility-a.svg",
+      "align": "hex_base",
+      "offset": [12, 85]
+    },
+    {
+      "image": "facility-b.svg",
+      "align": "hex_base",
+      "offset": [18, 70]
+    },
+    {
+      "image": "hardware-device.svg",
+      "align": "hex_base",
+      "offset": [8, 95]
+    },
+    {
+      "image": "hardware-device_4_seq",
+      "align": "hex_base",
+      "offset": [10, 102]
+    },
+    {
+      "image": "hardware-part.svg",
+      "align": "hex_base",
+      "offset": [22, 68]
+    },
+    {
+      "image": "hardware-productionline.svg",
+      "align": "hex_base",
+      "offset": [12, 75]
+    },
+    {
+      "image": "hardware-sensor.svg",
+      "align": "hex_base",
+      "offset": [16, 61]
+    },
+    {
+      "image": "person-client-a.svg",
+      "align": "round_base",
+      "offset": [7, 71]
+    },
+    {
+      "image": "person-client-b.svg",
+      "align": "round_base",
+      "offset": [0, 76]
+    },
+    {
+      "image": "person-manager-a.svg",
+      "align": "round_base",
+      "offset": [7, 77]
+    },
+    {
+      "image": "person-manager-b.svg",
+      "align": "round_base",
+      "offset": [0, 77]
+    },
+    {
+      "image": "person-worker-a.svg",
+      "align": "round_base",
+      "offset": [0, 75]
+    },
+    {
+      "image": "person-worker-b.svg",
+      "align": "round_base",
+      "offset": [0, 80]
+    },
+    {
+      "image": "project-finished.svg",
+      "align": "hex_base",
+      "offset": [23, 104]
+    },
+    {
+      "image": "project-ongoing.svg",
+      "align": "hex_base",
+      "offset": [23, 106]
+    },
+    {
+      "image": "project-pending.svg",
+      "align": "hex_base",
+      "offset": [23, 106]
+    }
+  ]
+}

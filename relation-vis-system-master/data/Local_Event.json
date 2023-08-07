@@ -1,0 +1,245 @@
+{
+  "panel_type": "local",
+  "panel_radius": 6,
+  "grid_radius": 80,
+  "nodeInfos": [
+    {
+      "id": "event1",
+      "coors": [-3, 1],
+      "image": "abstract-faultevent_2_seq",
+      "shape": "hex_cube",
+      "titletext": "Fault X",
+      "hovertext": "故障事件1",
+      "focustext": {
+        "故障事件": "贴片机故障日志中的事件",
+        "详细资料": "故障事件为日志中的记录，具有时间属性，是进行根因分析的输入内容"
+      },
+      "link": "",
+      "effect": "",
+      "type": "Event"
+    },
+    {
+      "id": "rc164",
+      "coors": [1, -3],
+      "image": "abstract-faultphenomenon_2_seq",
+      "shape": "hex_cube",
+      "titletext": "Reason A",
+      "hovertext": "供料系统-feeder-堵塞",
+      "focustext": {
+        "根因": "供料系统feeder堵塞",
+        "详细资料": "供料器堵塞是造成贴片异常的常见原因之一"
+      },
+      "link": "Local_RC164.json",
+      "effect": "bulb-white",
+      "type": "RootCause"
+    },
+    {
+      "id": "ec34922",
+      "coors": [-1, -3],
+      "image": "abstract-signal_2_seq",
+      "shape": "hex_cube",
+      "titletext": "Error 34922",
+      "hovertext": "供料器：未在规定的时间将元件传送到指定的位置",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ErrorCode"
+    },
+    {
+      "id": "ec34926",
+      "coors": [-1, 1],
+      "image": "abstract-signal_2_seq",
+      "shape": "hex_cube",
+      "titletext": "Error 34926",
+      "hovertext": "供料器：封料带剥离设备堵塞",
+      "focustext": {
+        "故障代码34926": "贴片机故障日志报出的故障代码",
+        "详细资料": "设备堵塞,封料带拆除设备被堵塞（粘有封料带残留物），封料带容器已满。打开封料带拆除容器，并将其清空。封料带拆除通道中的粘性残留物。检查和清洁封料带拆除通道"
+      },
+      "link": "",
+      "effect": "",
+      "type": "ErrorCode"
+    },
+    {
+      "id": "ec34946",
+      "coors": [-1, -1],
+      "image": "abstract-signal_2_seq",
+      "shape": "hex_cube",
+      "titletext": "Error 34946",
+      "hovertext": "供料器未做出响应",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ErrorCode"
+    },
+    {
+      "id": "sol65",
+      "coors": [3, -3],
+      "image": "abstract-solution_2_seq",
+      "shape": "hex_cube",
+      "titletext": "Solution A",
+      "hovertext": "更换feeder",
+      "focustext": {
+        "解决方案": "更换feeder",
+        "详细资料": "设备堵塞,通过更换feeder解决堵塞问题，更换后重新上线即可恢复正常"
+      },
+      "link": "",
+      "effect": "bulb-white",
+      "type": "Solution"
+    },
+    {
+      "id": "rc62",
+      "coors": [1, 3],
+      "image": "abstract-faultphenomenon_2_seq",
+      "shape": "hex_cube",
+      "titletext": "Reason B",
+      "hovertext": "贴片头-Z轴-堵塞",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "RootCause"
+    },
+    {
+      "id": "ec34924",
+      "coors": [-1, 5],
+      "image": "abstract-signal_2_seq",
+      "shape": "hex_cube",
+      "titletext": "Error 34924",
+      "hovertext": "贴片机会停止运行，直到封料带撕裂问题得到解决为止。封料带撕裂，或者紧松程度不适当",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "ErrorCode"
+    },
+    {
+      "id": "sol21",
+      "coors": [3, 3],
+      "image": "abstract-solution_2_seq",
+      "shape": "hex_cube",
+      "titletext": "Solution B",
+      "hovertext": "清洁保养",
+      "focustext": null,
+      "link": "",
+      "effect": "",
+      "type": "Solution"
+    }
+  ],
+  "edgeInfos": [
+    {
+      "id": "co_rc_8898",
+      "startnode": "ec34922",
+      "endnode": "rc164",
+      "hovertext": "同时出现",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "co_occur_ec_rc"
+    },
+    {
+      "id": "co_rc_9006",
+      "startnode": "ec34926",
+      "endnode": "rc164",
+      "hovertext": "同时出现",
+      "focustext": {
+        "同时出现": "在故障日志中同时出现的根因和故障代码",
+        "详细资料": "贴片机本身的故障日志中，会报出不同的故障代码，通过分析算法可以得到和故障代码同时出现的根因，并相连"
+      },
+      "line": "straight",
+      "path": [],
+      "type": "co_occur_ec_rc"
+    },
+    {
+      "id": "co_rc_9014",
+      "startnode": "ec34946",
+      "endnode": "rc164",
+      "hovertext": "同时出现",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "co_occur_ec_rc"
+    },
+    {
+      "id": "is_solution_of_117",
+      "startnode": "rc164",
+      "endnode": "sol65",
+      "hovertext": "解决方案",
+      "focustext": {
+        "解决方案": "对具体根因的实际解决方案",
+        "详细资料": "针对发现的具体根因以及与之相连的子模块，对应有相应的解决方案，用于故障的排除"
+      },
+      "line": "straight",
+      "path": [],
+      "type": "is_solution_of"
+    },
+    {
+      "id": "co_rc_9008",
+      "startnode": "ec34926",
+      "endnode": "rc62",
+      "hovertext": "同时出现",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "co_occur_ec_rc"
+    },
+    {
+      "id": "co_rc_8987",
+      "startnode": "ec34924",
+      "endnode": "rc62",
+      "hovertext": "同时出现",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "co_occur_ec_rc"
+    },
+    {
+      "id": "is_solution_of_46",
+      "startnode": "rc62",
+      "endnode": "sol21",
+      "hovertext": "解决方案",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "is_solution_of"
+    },
+    {
+      "id": "contains_1",
+      "startnode": "event1",
+      "endnode": "ec34922",
+      "hovertext": "包含",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "contains"
+    },
+    {
+      "id": "contains_2",
+      "startnode": "event1",
+      "endnode": "ec34926",
+      "hovertext": "包含",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "contains"
+    },
+    {
+      "id": "contains_3",
+      "startnode": "event1",
+      "endnode": "ec34946",
+      "hovertext": "包含",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "contains"
+    },
+    {
+      "id": "contains_4",
+      "startnode": "event1",
+      "endnode": "ec34924",
+      "hovertext": "包含",
+      "focustext": null,
+      "line": "straight",
+      "path": [],
+      "type": "contains"
+    }
+  ]
+}

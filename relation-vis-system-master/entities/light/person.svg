@@ -1,0 +1,128 @@
+<svg id="图层_5" data-name="图层 5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 44.78 53.99" width='45' height='53'>
+  <defs>
+    <style>.cls-1{fill:none;}.cls-2{isolation:isolate;}.cls-3{clip-path:url(#clip-path);}.cls-4{fill:#007878;}.cls-5{clip-path:url(#clip-path-2);}.cls-6{fill:#007c7c;}.cls-7{fill:#008181;}.cls-8{fill:#00d4d4;}.cls-9{fill:#00445f;}.cls-10{clip-path:url(#clip-path-3);}.cls-11{fill:#004c6a;}.cls-12{fill:#004967;}.cls-13{fill:#004663;}.cls-14{fill:#004460;}.cls-15{fill:#007caf;}.cls-16{clip-path:url(#clip-path-4);}.cls-17{fill:#8f8f8f;}.cls-18{clip-path:url(#clip-path-5);}.cls-19{clip-path:url(#clip-path-6);}.cls-20{clip-path:url(#clip-path-7);}.cls-21{fill:gray;}.cls-22{fill:#ebebeb;}.cls-23{fill:#818181;}.cls-24{clip-path:url(#clip-path-8);}.cls-25{clip-path:url(#clip-path-9);}.cls-26{clip-path:url(#clip-path-10);}</style>
+    <clipPath id="clip-path">
+      <path id="SVGID" class="cls-1" d="M23.72,31H22.06c-5.49,0-9.58-3.94-9.79-4.15h1.66C14.13,27.06,18.22,31,23.72,31Z"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="SVGID-2" data-name="SVGID" class="cls-1" d="M13.93,26.85H12.27a15.94,15.94,0,0,1-4-10.68c0-8.32,6-15.06,13.42-15.06h1.66C16,1.11,10,7.85,10,16.17A15.89,15.89,0,0,0,13.93,26.85Z"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="SVGID-3" data-name="SVGID" class="cls-1" d="M26.26,34.94H24.6a15.8,15.8,0,0,0,7.87-3.61h1.66A15.89,15.89,0,0,1,26.26,34.94Z"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="SVGID-4" data-name="SVGID" class="cls-1" d="M24,35.1H22.39c.29,0,.57,0,.83,0,.79,0,1.35-.13,1.38-.13h1.66s-.59.09-1.39.13C24.61,35.09,24.33,35.1,24,35.1Z"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="SVGID-5" data-name="SVGID" class="cls-1" d="M24.12,35.09H22.46c.26,0,.51,0,.76,0h1.65C24.62,35.09,24.37,35.09,24.12,35.09Z"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <path id="SVGID-6" data-name="SVGID" class="cls-1" d="M24,35.1H22.39l-.8,0h1.66C23.51,35.09,23.78,35.1,24,35.1Z"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <path id="SVGID-7" data-name="SVGID" class="cls-1" d="M23.25,35.07H21.59l-.29,0H23Z"/>
+    </clipPath>
+    <clipPath id="clip-path-8">
+      <path id="SVGID-8" data-name="SVGID" class="cls-1" d="M21.31,52.06H19.65c-5.57-.09-9.77-.41-10-.43h1.66C11.54,51.65,15.74,52,21.31,52.06Z"/>
+    </clipPath>
+    <clipPath id="clip-path-9">
+      <path id="SVGID-9" data-name="SVGID" class="cls-1" d="M11.32,51.63H9.66C.54,51.38.38,46.42.37,46.16H2C2,46.42,2.2,51.38,11.32,51.63Z"/>
+    </clipPath>
+    <clipPath id="clip-path-10">
+      <path id="SVGID-10" data-name="SVGID" class="cls-1" d="M2,46.16H.37c-.95-5,7.66-12.42,10.9-15h1.65C9.69,33.74,1.07,41.15,2,46.16Z"/>
+    </clipPath>
+  </defs>
+  <title>图标3</title>
+  <g class="cls-2">
+    <g class="cls-2">
+      <g class="cls-3">
+        <g class="cls-2">
+          <path class="cls-4" d="M23.72,31H22.06c-5.49,0-9.58-3.94-9.79-4.15h1.66c.2.21,4.29,4.15,9.79,4.15"/>
+        </g>
+      </g>
+    </g>
+    <g class="cls-2">
+      <g class="cls-5">
+        <g class="cls-2">
+          <path class="cls-4" d="M13.93,26.85H12.27a15.94,15.94,0,0,1-4-10.68A15.53,15.53,0,0,1,14.74,3.31h1.65A15.55,15.55,0,0,0,10,16.17a15.89,15.89,0,0,0,4,10.68"/>
+          <path class="cls-6" d="M16.39,3.31H14.74a12.66,12.66,0,0,1,3.64-1.72H20a12.66,12.66,0,0,0-3.64,1.72"/>
+          <path class="cls-7" d="M20,1.59H18.38a12,12,0,0,1,3.34-.48h1.66A12,12,0,0,0,20,1.59"/>
+        </g>
+      </g>
+    </g>
+    <path class="cls-8" d="M23.38,1.11c7.4,0,13.4,6.74,13.4,15.07a15.81,15.81,0,0,1-4.9,11.64A12.63,12.63,0,0,1,23.72,31c-5.5,0-9.59-3.94-9.79-4.15a15.89,15.89,0,0,1-4-10.68C10,7.85,16,1.11,23.38,1.11Z"/>
+  </g>
+  <g class="cls-2">
+    <polygon class="cls-9" points="27.71 38.15 26.06 38.15 24.6 34.94 26.26 34.94 27.71 38.15"/>
+    <g class="cls-2">
+      <g class="cls-10">
+        <g class="cls-2">
+          <path class="cls-11" d="M26.26,34.94H24.6a14.39,14.39,0,0,0,2-.43h1.65a14.57,14.57,0,0,1-2,.43"/>
+          <path class="cls-12" d="M28.23,34.51H26.58a16.15,16.15,0,0,0,4.56-2.16h1.65a15.89,15.89,0,0,1-4.56,2.16"/>
+          <path class="cls-13" d="M32.79,32.35H31.14a15,15,0,0,0,1.33-1h1.66c-.36.3-.81.66-1.34,1"/>
+        </g>
+      </g>
+    </g>
+    <polygon class="cls-14" points="25.39 43.47 23.74 43.47 26.06 38.15 27.71 38.15 25.39 43.47"/>
+    <polygon class="cls-9" points="25.42 52.07 23.76 52.07 23.74 43.47 25.39 43.47 25.42 52.07"/>
+    <path class="cls-15" d="M41.42,38.23c6.52,7.32,1.83,10.45,1.59,10.62C40.74,51.29,32.79,52,25.42,52.07l0-8.6,2.32-5.32-1.45-3.21a15.89,15.89,0,0,0,7.87-3.61Z"/>
+    <g class="cls-2">
+      <g class="cls-16">
+        <g class="cls-2">
+          <path class="cls-17" d="M24,35.1H22.39c.29,0,.57,0,.83,0,.79,0,1.35-.13,1.38-.13h1.66s-.59.09-1.39.13c-.26,0-.54,0-.83,0"/>
+        </g>
+      </g>
+    </g>
+    <g class="cls-2">
+      <g class="cls-18">
+        <g class="cls-2">
+          <path class="cls-11" d="M24.12,35.09H22.46c.26,0,.51,0,.76,0h1.65c-.25,0-.5,0-.75,0"/>
+        </g>
+      </g>
+    </g>
+    <g class="cls-2">
+      <g class="cls-19">
+        <g class="cls-2">
+          <path class="cls-13" d="M24,35.1H22.39l-.8,0h1.66c.26,0,.53,0,.79,0"/>
+        </g>
+      </g>
+    </g>
+    <g class="cls-2">
+      <g class="cls-20">
+        <g class="cls-2">
+          <path class="cls-13" d="M23.25,35.07H21.59l-.29,0H23l.29,0"/>
+        </g>
+      </g>
+    </g>
+    <path class="cls-15" d="M23,35.05c.39,0,.78,0,1.16,0s.5,0,.75,0c-.26,0-.54,0-.83,0s-.53,0-.79,0Z"/>
+    <polygon class="cls-21" points="21.31 52.06 19.65 52.06 19.7 43.47 21.35 43.47 21.31 52.06"/>
+    <polygon class="cls-21" points="21.31 52.13 19.65 52.13 19.65 52.06 21.31 52.06 21.31 52.13"/>
+    <path class="cls-22" d="M20.51,34.67c.07,0,1.23.27,2.45.38l.29,0c.26,0,.53,0,.79,0s.57,0,.83,0c.8,0,1.36-.13,1.39-.13l1.45,3.21-2.32,5.32,0,8.6v.06H21.31v-.07l0-8.59L19,38.15Z"/>
+    <polygon class="cls-21" points="21.35 43.47 19.7 43.47 17.38 38.15 19.03 38.15 21.35 43.47"/>
+    <polygon class="cls-23" points="19.03 38.15 17.38 38.15 18.86 34.67 20.51 34.67 19.03 38.15"/>
+    <g class="cls-2">
+      <g class="cls-24">
+        <g class="cls-2">
+          <path class="cls-13" d="M21.31,52.06H19.65c-5.57-.09-9.77-.41-10-.43h1.66c.22,0,4.42.34,10,.43"/>
+        </g>
+      </g>
+    </g>
+    <g class="cls-2">
+      <g class="cls-25">
+        <g class="cls-2">
+          <path class="cls-13" d="M11.32,51.63H9.66C.54,51.38.38,46.42.37,46.16H2c0,.26.18,5.22,9.3,5.47"/>
+        </g>
+      </g>
+    </g>
+    <path class="cls-15" d="M20.51,34.67,19,38.15l2.32,5.32,0,8.59c-5.57-.09-9.77-.41-10-.43C2.2,51.38,2,46.42,2,46.16c-.95-5,7.67-12.42,10.9-15A22.2,22.2,0,0,0,20.51,34.67Z"/>
+    <g class="cls-2">
+      <g class="cls-26">
+        <g class="cls-2">
+          <path class="cls-13" d="M2,46.16H.37c-.95-5,7.66-12.42,10.9-15h1.65c-3.23,2.59-11.85,10-10.9,15"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

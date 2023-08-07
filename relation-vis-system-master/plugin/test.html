@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- todo 开发完毕后修改目录结构 -->
+    <script src="../public/graphvis.js"></script>
+    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/animate.css" />
+
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      #app {
+        height: calc(100vh);
+      }
+      .graph-container {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module">
+      import PluginGraph from "./src/index.js";
+      const pluginGraph = new PluginGraph();
+      pluginGraph.init("app");
+    </script>
+  </body>
+</html>

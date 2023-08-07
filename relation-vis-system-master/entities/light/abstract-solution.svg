@@ -1,0 +1,54 @@
+<svg id="图层_5" data-name="图层 5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 80 90" width='80' height='90'>
+  <defs>
+    <style>.cls-1{fill:#f7f7f7;}.cls-2{fill:#d8d8d8;}.cls-3{fill:#e8e8e8;}.cls-4{fill:#efefef;}.cls-5{fill:#0186be;}.cls-6{fill:url(#未命名的渐变_8);}.cls-7{fill:#03e5e1;}.cls-8{fill:#04bcd8;}.cls-10,.cls-9{opacity:0.4;}.cls-9{fill:url(#未命名的渐变_78);}.cls-10{fill:url(#未命名的渐变_87);}.cls-11{fill:url(#未命名的渐变_18);}.cls-12{fill:#00aeeb;}</style>
+    <linearGradient id="未命名的渐变_8" x1="17.05" y1="51.36" x2="61.47" y2="51.36" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0186be"/>
+      <stop offset="0.05" stop-color="#0196c5"/>
+      <stop offset="0.18" stop-color="#00c1d7"/>
+      <stop offset="0.29" stop-color="#00dce2"/>
+      <stop offset="0.35" stop-color="#00e6e6"/>
+      <stop offset="0.47" stop-color="#00dde2"/>
+      <stop offset="0.66" stop-color="#00c3d7"/>
+      <stop offset="0.9" stop-color="#019ac6"/>
+      <stop offset="1" stop-color="#0186be"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_78" x1="39.41" y1="52.35" x2="39.41" y2="7.96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="aqua"/>
+      <stop offset="0.95" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_87" x1="39.08" y1="52.35" x2="39.08" y2="10.11" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d8ff"/>
+      <stop offset="0.09" stop-color="#11dbff"/>
+      <stop offset="0.27" stop-color="#3ce1ff"/>
+      <stop offset="0.51" stop-color="#83ecff"/>
+      <stop offset="0.82" stop-color="#e2fbff"/>
+      <stop offset="0.9" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_18" x1="34.79" y1="36.75" x2="45.14" y2="24.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0.05" stop-color="#0186be"/>
+      <stop offset="0.13" stop-color="#018cc0"/>
+      <stop offset="0.24" stop-color="#019cc7"/>
+      <stop offset="0.36" stop-color="#00b7d2"/>
+      <stop offset="0.48" stop-color="#00dce2"/>
+      <stop offset="0.51" stop-color="#00e6e6"/>
+      <stop offset="0.65" stop-color="#01b4d1"/>
+      <stop offset="0.77" stop-color="#0192c3"/>
+      <stop offset="0.83" stop-color="#0186be"/>
+    </linearGradient>
+  </defs>
+  <title>图标3</title>
+  <polygon class="cls-1" points="78.66 60.79 68.61 83.2 28.5 89.43 0.17 73.2 0.17 65.57 78.66 53.15 78.66 60.79"/>
+  <polygon class="cls-2" points="78.66 60.79 68.61 83.2 68.61 75.57 78.66 53.15 78.66 60.79"/>
+  <polygon class="cls-3" points="78.66 53.15 68.61 75.57 28.5 81.79 0.17 65.57 10.61 43.01 50.86 37.12 78.66 53.15"/>
+  <polygon class="cls-4" points="68.61 75.57 68.61 83.2 28.5 89.43 28.5 81.79 68.61 75.57"/>
+  <path class="cls-5" d="M61.48,53.19V51.11h-.43c-.84-2.34-2.88-4.57-6.12-6.39-8.7-4.88-22.78-4.91-31.44,0-3.25,1.82-5.27,4.08-6.07,6.44H17v2a5.23,5.23,0,0,0,0,.56v.15h0c.18,3.07,2.36,6.1,6.54,8.45,8.71,4.88,22.79,4.91,31.44,0C59.52,59.84,61.67,56.5,61.48,53.19Z"/>
+  <path class="cls-6" d="M60.43,47.65h0l-3.61-5.49L53.71,42c-7.09-3.44-17.08-4-25-1.59l-1.36-.08L22,41.5,19,46.24c-3.62,4.57-2.06,10.13,4.66,13.9C32.31,65,46.37,65.05,55,60.2,61.06,56.81,62.86,51.94,60.43,47.65Z"/>
+  <ellipse class="cls-7" cx="39.26" cy="45.23" rx="10.36" ry="18.46" transform="translate(-6.17 84.26) rotate(-89.71)"/>
+  <path class="cls-8" d="M53.66,45v.55a5.32,5.32,0,0,1-1.45,3.31A10.2,10.2,0,0,1,49.49,51c-5.61,3.14-14.74,3.13-20.39,0a10.55,10.55,0,0,1-2.79-2.19,5.54,5.54,0,0,1-1.44-3.22,3,3,0,0,1,0-.73C25,42.86,26.42,41,29,39.5c5.61-3.15,14.74-3.13,20.38,0C52.12,41,53.53,43,53.66,45Z"/>
+  <path class="cls-9" d="M55.29,45.43V46a4.85,4.85,0,0,1-1.66,3.21,11.65,11.65,0,0,1-3.11,2.06c-6.42,3-16.86,3-23.33,0A11.63,11.63,0,0,1,24,49.08,5,5,0,0,1,22.35,46L1.24.19H77.59Z"/>
+  <path class="cls-10" d="M53.87,46.76v.45a4.07,4.07,0,0,1-1.47,2.68,10.15,10.15,0,0,1-2.76,1.72C44,54.16,34.71,54.15,29,51.58a10.52,10.52,0,0,1-2.83-1.77,4.11,4.11,0,0,1-1.46-2.6l-.4-47H53.65Z"/>
+  <path class="cls-11" d="M35,41.6c0,.6,1.85,2.28,2.5,2.28l3.6-1.15c.64,0,2.69-.39,2.69-1l-1.56-1.16H35ZM38.64,21a7.86,7.86,0,0,0-8.14,7.57A7.47,7.47,0,0,0,34,34.86v2.45c0,.6.31.71.88,1.15l1.15.88,6.13-1a1.12,1.12,0,0,0,1.17-1.08V34.86a7.47,7.47,0,0,0,3.47-6.25c0-1.71-3-5.63-3-5.63A9.8,9.8,0,0,0,38.64,21"/>
+  <path class="cls-12" d="M36.58,42.76a1.13,1.13,0,0,0,1.13,1.13h5a1.14,1.14,0,0,0,1.13-1.13v-1H36.58ZM40.19,22.2a7.85,7.85,0,0,0-8.13,7.57A7.49,7.49,0,0,0,35.52,36v2.45a1.13,1.13,0,0,0,1.17,1.08h7a1.12,1.12,0,0,0,1.16-1.08V36a7.48,7.48,0,0,0,3.48-6.25,7.86,7.86,0,0,0-8.14-7.57"/>
+</svg>

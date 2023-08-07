@@ -1,0 +1,28 @@
+<svg id="图层_5" data-name="图层 5"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 79 78" width='79' height='78'>
+  <defs>
+    <style>.cls-1{fill:#f7f7f7;}.cls-2{fill:#d8d8d8;}.cls-3{fill:#e8e8e8;}.cls-4{fill:#efefef;}.cls-5{fill:#0087be;}.cls-6{fill:#00aeeb;}.cls-7{fill:#868686;}.cls-8{fill:#03e5e1;}.cls-9{fill:url(#未命名的渐变_38);}.cls-10{fill:#331500;}.cls-11{fill:#fff;}.cls-11,.cls-12,.cls-13{fill-rule:evenodd;}.cls-12{fill:#231815;}.cls-13{fill:#e0e0e0;}</style>
+    <radialGradient id="未命名的渐变_38" cx="39.22" cy="9.18" r="10.98" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f1d00"/>
+      <stop offset="1" stop-color="#331500"/>
+    </radialGradient>
+  </defs>
+  <title>图标3</title>
+  <polygon class="cls-1" points="78.75 49.19 68.69 71.6 28.59 77.83 0.25 61.6 0.25 53.97 78.75 41.55 78.75 49.19"/>
+  <polygon class="cls-2" points="78.75 49.19 68.69 71.6 68.69 63.97 78.75 41.55 78.75 49.19"/>
+  <polygon class="cls-3" points="78.75 41.55 68.69 63.97 28.59 70.19 0.25 53.97 10.7 31.41 50.95 25.52 78.75 41.55"/>
+  <polygon class="cls-4" points="68.69 63.97 68.69 71.6 28.59 77.83 28.59 70.19 68.69 63.97"/>
+  <path class="cls-5" d="M58.91,55.84V31.66l-10.73,6.2V62Zm0,0"/>
+  <path class="cls-6" d="M29.35,14.6,18.62,20.79,48.18,37.86l10.73-6.19Zm0,0"/>
+  <path class="cls-7" d="M18.62,20.79V45L48.18,62V37.86Zm0,0"/>
+  <path class="cls-8" d="M18.62,20.79V45L48.18,62V37.86Zm0,0"/>
+  <path class="cls-9" d="M38.69,1.41,25.77,8.87l14,8.07L52.67,9.48Zm0,0"/>
+  <path class="cls-3" d="M25.77,8.87v19l14,8.09V17Zm0,0"/>
+  <path class="cls-2" d="M52.7,9.49,39.78,17V35.91L52.7,28.44Zm0,0"/>
+  <path class="cls-10" d="M52.7,9.49,39.78,17v3.19l2.52-1.41v8.47l3.94-2.14v2.45L52.7,24.2ZM25.77,8.87v3.75l11.17,9V18.47l2.84,1.68V17Zm0,0"/>
+  <polygon class="cls-11" points="38.59 35.22 31.95 52.22 26.89 28.47 38.59 35.22"/>
+  <path class="cls-12" d="M31.52,41.3l1.44.83h0v2h0l-1.44-.83v-2Zm0,4,1.44.83v2l-1.44-.83v-2Zm0-7.89,1.44.83v2l-1.44-.83Z"/>
+  <polygon class="cls-13" points="32.96 31.98 28.24 34.03 26.89 28.47 32.96 31.98"/>
+  <polygon class="cls-13" points="32.96 31.98 36.22 38.76 38.59 35.22 32.96 31.98"/>
+</svg>

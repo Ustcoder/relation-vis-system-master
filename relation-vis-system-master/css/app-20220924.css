@@ -1,0 +1,234 @@
+.pear-admin .layui-header {
+    left: 230px;
+    width: calc(100% - 230px);
+    height: 50px;
+    background-color: #28333e;
+    border-bottom: 1px solid #393636;
+}
+
+.pear-admin .layui-header.full{
+	left: 0;
+	width: 100%;
+}
+
+
+.layui-nav{
+	background-color: #28333e;
+	color:#fafafa;
+}
+
+.pear-admin .layui-logo .title {
+    font-size: 21px;
+    font-weight: 550;
+    color: #dae6dd;
+    position: relative;
+    top: 5px;
+    margin-left: 5px;
+}
+
+.pear-admin .layui-header .layui-nav .layui-nav-item>a {
+    color: #fafafa;
+    font-size: 15px;
+}
+
+.pear-admin .layui-side {
+    top: 0px;
+    width: 230px;
+    box-shadow: 2px 0 6px rgb(0 21 41 / 35%);
+    z-index: 9999;
+    background: #28333e;
+}
+
+.pear-admin .layui-side-scroll {
+    height: calc(100% - 58px)!important;
+    /* background-color:#fafafa; */
+    width: 247px;
+}
+
+.pear-admin .layui-logo {
+    width: 230px;
+	height: 50px;
+	line-height: 40px;
+	position: relative;
+	background-color: #28333E;
+	text-align: center;
+}
+
+.pear-admin .layui-body.full{
+	left: 0;
+}
+
+.pear-admin .layui-body {
+    left: 230px;
+    bottom: 0px;
+    position: fixed;
+    top: 50px;
+    overflow: hidden;
+}
+
+.header-switch{
+	position:absolute;
+	top:0;
+	right:200px;
+	color:#fafafa;
+}
+
+.page-title{
+	display: inline-block;
+	width:200px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	color: #c8bdbd;
+	border-right: 1px solid #37383c;
+}
+
+
+/** layui弹框样式定制 ***/
+.layui-layer {
+    -webkit-overflow-scrolling: touch;
+    top: 150px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #28333e !important;
+    -webkit-background-clip: content;
+    border-radius: 2px;
+    box-shadow: 1px 1px 50pxrgba(0,0,0,.3);
+}
+
+.layui-layer-title {
+    padding: 0 80px 0 20px;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #3d2d2d !important ;
+    font-size: 14px;
+    color: #fff !important;
+    overflow: hidden;
+    background-color: #1c2a37 !important;
+    border-radius: 2px 2px 0 0;
+}
+
+.layui-layer-setwin .layui-layer-close1 {
+    background-position: -156px -38px !important;
+    cursor: pointer;
+}
+
+
+.layui-table {
+    width: 100%;
+    background-color: transparent;
+    color: #fafafa;
+}
+
+.layui-table td, .layui-table th {
+    position: relative;
+    padding: 9px 15px;
+    min-height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    border: none;
+	color:#8c8c90;
+}
+
+.node-tip{
+	position: absolute;
+	top: 50px;
+	left: 300px;
+	z-index: 999999;
+	display: none;
+	width:220px;
+	height:60px;
+	padding: 8px;
+	color:#fafafa;
+	font-size: 13px;
+	line-height: 20px;
+	background-color: rgba(5,62,79,0.8);
+    border: 1px solid #5f6397;
+}
+
+.node-tip > .content{
+	width:80%;
+}
+
+.node-tip > .toolbar-btns{
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	color:#fff;
+	width : 30px;
+}
+
+.node-tip > .toolbar-btns > a{
+	color: #6ca1bf;
+	border: 1px solid #2381a3;
+	font-size: 13px;
+	line-height: 26px;
+	padding: 2px;
+}
+
+
+/*--左侧拖动节点样式--*/
+.nodeDragMenu {
+    overflow: hidden;
+    padding: 0;
+    margin-top: 0;
+    /* color: #222; */
+    border: 1px solid #3d3b3b;
+    background: #28333e;
+}
+.nodeDragMenu li.level1>a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #b6b9ca;
+	padding-left: 25px;
+	border-bottom: 1px solid #273f4a;
+	font-size: 14px;
+	position: relative;
+	transition: all .2s ease 0s;
+}
+.nodeDragMenu li.level1 a:hover{
+	text-decoration: none;
+	background: #17242f;
+	color: #b6b9ca;
+}
+.nodeDragMenu li.level1 a.current{
+	background: #181f3d;
+	color: #fff;
+}
+.nodeDragMenu li.level1 i{
+    font-size: 13px;
+    color: #9b9da0;
+    position: absolute;
+    right: 20px;
+    top: 2px;
+}
+.nodeDragMenu li.level1 i.down{transform:rotate(90deg);-webkit-transform:rotate(90deg);}
+.nodeDragMenu li ul{overflow: hidden;padding:0;}
+.nodeDragMenu li ul.level2{
+	display: none;
+	padding:15px 0;
+	background:#fff;
+}
+.nodeDragMenu li ul.level2 li a{
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	color: #333;
+	font-size: 14px;
+	transition:all .5s ease 0s;
+}
+.nodeDragMenu li ul.level2 img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 5px 0 5px 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(218,218,218, 0.7);
+}
+
+.nodeDragMenu li ul.level2 img:hover{
+	border: 1px solid rgba(180,180,210, 1);
+}

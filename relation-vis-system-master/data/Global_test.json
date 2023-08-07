@@ -1,0 +1,20 @@
+{
+  "panel_type": "global",
+  "panel_radius": 10,
+  "grid_radius": 56,
+  "nodeInfos": [
+    {
+      "id": "DAV",
+      "coors": [0, 4],
+      "image": "facility.svg",
+      "shape": "",
+      "titletext": "DAV",
+      "hovertext": "Data Analytics of Vertical - Research Group in T-CN",
+      "focustext": null,
+      "link": "",
+      "effect": "bulb-white",
+      "type": "Organization"
+    }
+  ],
+  "edgeInfos": []
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- todo 开发完毕后修改目录结构 -->
+    <script src="./libs/graphvis.js"></script>
+    <script src="./lang/index.js"></script>
+    <link rel="stylesheet" href="./plugin/src/index.css" />
+    <link rel="stylesheet" href="./plugin/src/animate.css" />
+    <link rel="stylesheet" href="./css/full-page.css" />
+    <!-- <script src="./dist/PluginGraph.umd.js"></script> -->
+
+    <style>
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      .graph-container {
+        height: 100%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- 头部 -->
+    <div class="header animate__animated" id="header">
+      <div class="header-left">
+        <div class="search">
+          <input
+            id="searchInput"
+            class="search"
+            i18n="sou-suo"
+            placeholder="搜索"
+          />
+          <div class="search-icon" id="searchBtn">
+            <img src="./images/light/common/search.png" />
+          </div>
+        </div>
+      </div>
+      <div class="header-center">
+        <img src="./images/dark/header.png" class="header-bg" id="header-bg" />
+      </div>
+      <div class="header-right">
+        <div class="btn-net-close" id="btn-net" i18n="guan-bi-wang-ge">
+          关闭网格
+        </div>
+        <div class="btn-big" id="btn-big"></div>
+        <div class="btn-theme btn-theme1" id="btn-theme"></div>
+        <div class="btn-lang" id="btn-lang">中文</div>
+      </div>
+    </div>
+    <div class="btn-back hidden" id="returnPreLevel" i18n="fan-hui">back</div>
+    <!-- 左侧菜单 -->
+    <div class="sidebar sidebar-plugin">
+      <!-- 重新排布 -->
+      <div class="sidebar-btn">
+        <a
+          class="sidebar-layout"
+          title="重新排布"
+          page-event="zoomOpt"
+          data-type="zoom1"
+          i18n="chong-xin-pai-bu"
+        ></a>
+      </div>
+      <!-- 放大 -->
+      <div class="sidebar-btn">
+        <a
+          class="sidebar-big"
+          title="放大"
+          page-event="zoomOpt"
+          data-type="zoomOut"
+          i18n="fang-da"
+        ></a>
+      </div>
+      <!-- 缩小 -->
+      <div class="sidebar-btn">
+        <a
+          class="sidebar-small"
+          title="缩小"
+          page-event="zoomOpt"
+          data-type="zoomIn"
+          i18n="suo-xiao"
+        ></a>
+      </div>
+      <!-- 自适应 -->
+      <div class="sidebar-btn">
+        <a
+          class="sidebar-auto"
+          title="自适应"
+          page-event="zoomOpt"
+          data-type="auto"
+          i18n="zi-shi-ying"
+        ></a>
+      </div>
+      <!-- 显示背景 -->
+      <div class="sidebar-btn">
+        <a
+          class="sidebar-bg"
+          title="显示背景图"
+          page-event="showBgPic"
+          i18n="xian-shi-bei-jing-tu"
+        ></a>
+      </div>
+    </div>
+    <div id="app"></div>
+
+    <script type="module">
+      import initFullPage from "./plugin/src/fullPage.js";
+      import fullConfig from "./plugin/config/light.js";
+      import fullConfigDark from "./plugin/config/dark.js";
+
+      let config = {
+        ...fullConfigDark,
+        theme: "dark",
+        handleLoad: () => {
+          // 进入下一层
+          document.getElementById("returnPreLevel").classList.remove("hidden");
+        },
+      };
+
+      initFullPage(config);
+
+      // 换肤
+      let theme = "dark";
+      document.getElementById("btn-theme").addEventListener("click", () => {
+        if (theme == "light") {
+          config = {
+            ...config,
+            ...fullConfigDark,
+            theme: "dark",
+          };
+          theme = "dark";
+        } else {
+          config = {
+            ...config,
+            ...fullConfig,
+            theme: "light",
+          };
+          theme = "light";
+        }
+        initFullPage(config, true);
+      });
+    </script>
+
+    <img class="none" src="./images/light/common/back-hover.png" />
+    <img class="none" src="./images/light/common/net-open-hover.png" />
+    <img class="none" src="./images/light/common/big1-hover.png" />
+    <img class="none" src="./images/light/common/small1-hover.png" />
+    <img class="none" src="./images/light/common/sidebar-big.png" />
+    <img class="none" src="./images/light/common/sidebar-small.png" />
+    <img class="none" src="./images/light/common/sidebar-info.png" />
+    <img class="none" src="./images/light/common/sidebar-auto.png" />
+    <img class="none" src="./images/light/common/sidebar-bg.png" />
+    <img class="none" src="./images/light/common/sidebar-layout-hover.png" />
+  </body>
+</html>
